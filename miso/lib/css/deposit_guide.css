@@ -1,0 +1,167 @@
+/*휴면예금안내*/
+
+/*휴면예금안내> 휴면예금안내*/
+
+.box3wrap{}
+.box3wrap>div{width:32.6%;border:4px solid #d7ecff;min-height:233px;float:left;margin-left:1%;padding:20px 15px;margin-bottom:15px}
+.box3wrap>div:first-child{margin-left:0}
+.box3wrap>div{color:#464646;font-size:1em;}
+.box3wrap>div>p{display:block;line-height:48px;font-size:1.500em;font-weight:bold;color:#000;width:100%;border-bottom:1px solid #ddd;}
+.box3wrap>div>p>span{color:#0d6ac1}
+
+.blue_cont{padding:27px;background:#edf6ff;border:1px solid #d8edff;clear:both;}
+.blue_cont>div{margin-bottom:20px}
+.blue_cont>div>p{font-size:1.286em;color:#0d6ac1;font-weight:bold;width:100%}
+.blue_cont>div>span.bluedot{padding-left:10px;background:url("../images/little_blue_dot.png") no-repeat 3px 11px;line-height:22px;color:#464646;display:inline-block;*display:inline;*zoom:1;}
+.blue_cont>div>table{width:97%;background:#fff;margin:0 auto;color:#464646;margin-bottom:10px}
+.blue_cont>div>table{border-top:1px solid #ddd;border-right: 1px solid #ddd}
+.blue_cont>div>table th{border-left:1px solid #ddd;border-bottom:1px solid #ddd;padding:17px; }
+.blue_cont>div>table td{border-left:1px solid #ddd;border-bottom:1px solid #ddd;padding: 17px;letter-spacing:-1px}
+.blue_cont>div>.gray_box{border:1px solid #ddd;padding:30px 0 0}
+.blue_cont>div>.gray_box>p{display:block;background:#f8f8f8;font-size:1.143em;width:100%;color:#464646;padding:15px 25px;border-bottom:1px solid #ddd;padding-top:0}
+.blue_cont>div>.gray_box>ul{background:#fff;padding:15px 25px;margin-bottom:0}
+.blue_cont>div>.gray_box>span{background:#fff;border-top:1px solid #ddd;padding:10px 25px}
+
+.gray_box{background:#f8f8f8;border:1px solid #dedede ;padding:30px 24px;margin-top:15px}
+.gray_box img{margin-bottom:20px;width:100%}
+.gray_box>span{clear:both}
+
+/*휴먼예금안내 > 출연휴먼예금조회*/
+.deposit_guide2>div{font-size:1.071em;color:#464646;clear:both;border-top:1px solid #ddd}
+.deposit_guide2>div:first-child{border-top:0}
+.deposit_guide2>div>p{width:100%;font-size:1.267em;font-weight:bold;color:#0d6ac1;line-height:30px;padding-left:10px;background:url("../images/big_blue_dot.png") no-repeat left 50%;margin-bottom:0}
+.deposit_guide2>div>ul{padding-left:10px;margin-top:10px;margin-bottom:30px}
+.deposit_guide2>div>ul li{padding-left:10px;background:url("../images/little_blue_dot.png") no-repeat 2px 11px;line-height:25px;}
+.deposit_guide2>div>button{font-size:1.067em;margin-bottom:32px}
+.deposit_guide2>div>div{padding:20px 23px;border:1px solid #dddddd;margin-top:12px}
+.deposit_guide2>div>div>p{font-size:1.267em;color:#464646;font-weight:bold;margin-bottom:20px}
+.deposit_guide2>div>div>img{width:100%}
+
+
+/*휴먼예금안내 > 출연휴면예금상속인 조회*/
+.deposit_guide3 p{font-size:1.143em;color:#0d6ac1;}
+.deposit_guide3 form{border:1px solid #ddd;background:#f8f8f8;padding:26px 20px;position:relative}
+.deposit_guide3 form fieldset .form-control{width:25%;display:inline-block;*display:inline;*zoom:1;}
+.deposit_guide3 form fieldset label{width:22%;padding-left:10px}
+.deposit_guide3 form fieldset>div>div{margin-bottom:10px}
+.deposit_guide3 form fieldset button{position:absolute;top:26px;right:20px;padding:20px;width:18%;background:#e6335b;color:#fff;border:none;border-radius:3px}
+
+
+/*휴먼예금안내 > 출연금융기관안내*/
+
+.deposit_guide4>div{clear:both}
+.deposit_guide4>div>p{width:100%;font-size:1.357em;font-weight:bold;color:#0d6ac1;line-height:30px;padding-left:10px;background:url("../images/big_blue_dot.png") no-repeat left 50%;margin-bottom:5px;}
+.deposit_guide4>div>div{padding-left:10px;}
+.link_wrap{border:1px solid #ddd;border-right:0;border-bottom:0}
+.link_wrap>ul{padding-left:0;font-size:0;margin-bottom:0;}
+.link_wrap>ul{border-top:1px solid #ddd}
+.link_wrap>ul:first-child{border-top:0}
+.link_wrap>ul>li{display:inline-block;*display:inline;*zoom:1;width:20%;height:61px;border-bottom:1px solid #ddd}
+.link_wrap>ul>li{border-right:1px solid #ddd;text-align:center;}
+.link_wrap>ul>li:first-child{border-left:0}
+.link_wrap>ul>li>a{display:inline-block;*display:inline;*zoom:1;width:100%;height:100%;font-size:14.5px;color:#464646;font-weight:bold}
+.link_wrap>ul>li>a>img{width:100%;height:99%}
+
+
+.de_posit4_ul li{padding-top:20px}
+.de_posit4_ul li a{letter-spacing: -1px}
+
+.link_wrap>.bank_list>li{font-size:14px}
+
+/*휴먼예금안내 > 기부하기*/
+.deposit_guide5>div{margin-bottom: 20px;}
+.deposit_guide5>.top_img>img{width:100%;margin-bottom:15px}
+.deposit_guide5>.top_img>span{display:block;line-height:22px;font-size:1.071em;margin-bottom:10px;background:url("../images/little_blue_dot.png") no-repeat 1px 9px;padding-left:10px}
+.blue_dot_box>p{font-size:1.357em;font-weight:bold;color:#0d6ac1;background:url("../images/big_blue_dot.png") no-repeat left 50%;padding-left:10px}
+.blue_dot_box>span{padding:0px 25px 0px 10px;font-size:1.071em;display:block;line-height:22px;color:#464646}
+.blue_dot_box>table th{color:#002b7f;background:#f1f4f7;border-top:2px solid #81aad2;text-align: center;padding:15px 0}
+.blue_dot_box>table td{border:1px solid #ddd;border-right:0;color:#464646}
+.blue_dot_box>table td:first-child{border-left:0;padding:15px 0;text-align:center}
+.blue_dot_box>span.black{color:#292929;font-size:1.071em;}
+.blue_dot_box>div{padding-left:10px;clear:both}
+.supposition{border:1px solid #ddd;padding:18px 20px;margin-top:15px}
+.supposition>p{background:url("../images/supposition_bg.png") no-repeat;display:inline-block;*display:inline;*zoom:1;width:77px;height:22px;padding-left:13px;color:#fff;font-size:1.071em;margin-right:10px;margin-bottom:0}
+.supposition>span{color:#464646;font-size:1.071em;}
+
+.supposition>div>.supposition_title{display:block;padding-left:10px;margin-top:40px;font-size:1.071em;color:#0d6ac1;font-weight:bold;background:url("../images/big_blue_dot.png") no-repeat left 50%;}
+.supposition>div>table{}
+.supposition>div>table th{color:#002b7f;background:#f1f4f7;border-top:2px solid #81aad2;text-align: center;padding:15px 0}
+.supposition>div>table td{border:1px solid #ddd;border-right:0;color:#464646;text-align:center}
+.supposition>div>table td:first-child{border-left:0;padding:15px 0;}
+.supposition  .result_img{float:left;width:9%;height:100%;min-height: 155px;text-align: center;line-height:155px}
+.supposition .result{width: 11%;background: #81aad2;color: #fff; height: 72px;display: block;float: left; border-radius: 50%;line-height: 72px;text-align: center;margin-left: 7%;margin-top: 40px;}
+
+.supposition ul{padding-left:10px}
+.supposition ul li{margin-bottom:10px}
+.supposition ul li span{line-height:25px;font-size:0.929em;display:block;padding-left:10px;color:#666666}
+.supposition ul li span.ar_icon{background:url("../images/sub_tab2_img.png") no-repeat 0px 50%;font-weight:bold}
+
+
+/*휴먼예금안내 모달팝업*/
+.modal-header{border-bottom:0}
+.modal-footer{border-bottom:0}
+
+#deposit_modal .closebtn,
+#deposit_modal2 .closebtn{font-size:45px;opacity:0}
+#deposit_modal .modal-body ul{padding-left:0} 
+#deposit_modal .modal-body ul li{float:left;width:50%;text-align:center;min-height:46px;line-height:46px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;border-right:1px solid #ddd;}
+#deposit_modal .modal-body ul li:first-child{border-left:1px solid #ddd;border-right:0}
+#deposit_modal .modal-body ul li.on{background:#666666;color:#fff;font-size:1.071em}
+#deposit_modal .modal-body ul li button{background:none;border:none;width:100%;position:relative}
+#deposit_modal .modal-body ul li button img{position:absolute;bottom:-1px;left:48%;display:none;}
+#deposit_modal .modal-body ul li.on button img{display:block;}
+
+
+#deposit_modal .modal_cont_wrap{clear:both;padding-top:27px;}
+.modal-dialog{width:650px}
+.modal_cont_wrap>div{display:none;}
+.modal_cont_wrap>div.on{display:block;}
+.modal_cont_wrap fieldset{background:#f8f8f8;border:1px solid #dedede;padding:25px}
+.modal_cont_wrap fieldset>div{float:left;width:79%;}
+.modal_cont_wrap fieldset>div .name{margin-bottom:10px}
+.modal_cont_wrap fieldset>div label{width:20%}
+.modal_cont_wrap fieldset>div input{width:36%;display:inline-block;*display:inline;*zoom:1;}
+.modal_cont_wrap fieldset button{background:#e6335b;border:0;color:#fff;padding:20px;width:21%;}
+
+
+#deposit_modal2{}
+#deposit_modal2 .modal-body .topresult{line-height:40px;text-align:center}
+#deposit_modal2 .modal-body .topresult>p{color:#292929;text-align:center;font-weight:bold;font-size:1.357em}
+#deposit_modal2 .modal-body .topresult>p >span{color:#0d6ac1}
+#deposit_modal2 .modal-body .topresult>span{font-size:1.071em;color:#464646;margin-bottom:25px;display:inline-block;*display:inline;*zoom:1;}
+#deposit_modal2 .modal-body table{border-top:2px solid #555555;text-align: center;}
+#deposit_modal2 .modal-body table th{background:#f8f8f8;border-bottom:1px solid #ddd;text-align: center;vertical-align:middle;height:49px}
+#deposit_modal2 .modal-body table td{border-bottom:1px solid #ddd;vertical-align:middle;height:49px}
+
+#deposit_modal2 .modal-body{padding-bottom:110px}
+#deposit_modal2 .modal-body .result p{font-size:1.143em;color:#0d6ac1;float:none;font-weight:bold;}
+#deposit_modal2 .modal_footer{background:#edf6ff;color:#0d6ac1;font-size:0.929em;position: absolute;bottom: 0;width: 100%;left: 0;padding: 26px;}
+#deposit_modal2 .btn_wrap{text-align:right}
+#deposit_modal2 .modal2_btn{background:#464646;padding:15px;color:#fff;border:none;text-align:center;border-radius:3px}
+
+
+@media (max-width: 650px){
+	
+	.box3wrap>div{width:100%;float:none;margin-left:0;min-height:0}
+	
+	
+	/*휴면예금안내>출연금융기관안내*/
+	.link_wrap>ul>li{width:25%}
+}
+
+@media (max-width: 523px){
+	.link_wrap>.bank_list>li{font-size:14px;font-size:13.5px;width:33.333%}
+}
+@media (max-width: 470px){
+.blue_cont>div>table td{padding:4px}
+
+}
+
+@media (max-width: 420px){
+	.link_wrap>.de_posit4_ul li a{font-size:11.5px}
+	.link_wrap>.bank_list>li{font-size:9.5px}
+}
+
+
+
+

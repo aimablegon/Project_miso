@@ -1,0 +1,353 @@
+.little_blue_dot_p{padding-left:7px;background:url("../images/little_blue_dot.png") no-repeat 0px 12px;}
+/*무료신용조회*/
+.support_1{padding-left:169px;background:url("../images/suport1.png") no-repeat;margin:45px 0 30px;padding-bottom:20px}
+
+.web_site{margin-bottom:10px}
+.web_site>p{font-size:1.357em;color:#0d6ac1;font-weight:bold;margin-bottom:0}
+.web_site>p>span{margin:0 3%;color:#dddddd}
+.web_site>p>a{color:#0d6ac1;font-weight:bold}
+.web_site>span{padding-left:10px;color:#464646;font-size:1.071em;display:block;}
+
+.support_btn_box{padding-left:0 !important}
+.support_btn_box li{float:left;width:49%;margin-left:2%;margin-bottom:38px}
+.support_btn_box li:first-child{margin-left:0}
+.support_btn_box li img{width:100%;}
+
+.supprot_page1_box{padding:15px 30px;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;clear:both;color:#464646}
+
+.management_cont{font-size:1.071em;color:#464646;line-height:22px}
+.management_cont ul{padding-left:0}
+.management_cont ul li{float:left;border:1px solid #dddddd;width:32%;margin-left:0.5%;margin-bottom:0.6%;padding:20px;text-align:center;min-height:142px}
+.management_cont ul li:first-child,
+.management_cont ul li:nth-child(4){margin-left:0}
+.management_cont ul li span{color:#464646;text-align:center;}
+.management_cont ul li .num{display:block;text-align:center;color:#666666;font-size:1.786em;margin-bottom:10px}
+.management_cont .not{clear:both;color:#666666;padding:10px 0;display:block;}
+.management_cont .dis_block{margin-bottom:5px}
+
+.supprot_page1 .list_box{clear:both;}
+
+.note{padding-left:0 !important;border-top:2px solid #7db0e0;}
+.note li{border-bottom:2px solid #7db0e0;padding:15px 20px;background:#f1f4f7;}
+.note li p{color:#002b7f;font-size:1.214em;font-weight:bold}
+.note li span{padding-left:63px;background:url("../images/tip_bg.png") no-repeat left 0;min-height: 21px;display: block;line-height: 21px;color:#464646}
+.note li span.sub_small_font2{background:none;}
+
+/*가계재무관리*/
+.management_method table{border-top:2px solid #81aad2;margin-top:30px;border-right:1px solid #e1e1e1;margin-bottom:10px}
+.management_method table th{background:#f1f4f7;color:#002b7f;border:1px solid #e1e1e1;padding:10px 15px}
+.management_method table td{border-bottom:1px solid #e1e1e1;padding:10px 14px}
+.management_method .button_wrap{text-align:right;margin-top:20px;margin-bottom:45px}
+.management_method button{background:#464646;padding:15px 20px;color:#fff;border:none;border-radius:3px}
+.management_method .blue_box{padding:25px;background:#edf6ff;border:1px solid #d9edff;color:#0d6ac1;line-height:22px}
+
+/*지출항목*/
+.expense_item .select_wrap{text-align:right;margin-top: 15px;}
+.expense_item .select_wrap label{
+    color: #0d6ac1;
+    font-size: 1.143em;
+    line-height: 20px;
+}
+.expense_item .select_wrap select{
+    display: inline-block;
+    *display:inline;*zoom:1;
+    width: 16%;
+    margin-left: 1%;
+    border-radius: 0;
+}
+.expense_item table{border-top:2px solid #81aad2;border-right:1px solid #ddd;margin-top:20px;margin-bottom:10px}
+.expense_item table th{background:#f1f4f7;color:#002b7f;text-align:center;padding:9px 15px;border-left:1px solid #ddd;border-bottom:1px solid #ddd}
+.expense_item table td{text-align:right;padding-right:2%;padding:9px 15px;border-bottom:1px solid #ddd;border-left:1px solid #ddd}
+.expense_item table td input{width:85%}
+
+.expense_item .button_wrap{text-align:right;margin-top:20px;margin-bottom:45px}
+.expense_item button{background:#464646;padding:15px 20px;color:#fff;border:none;border-radius:3px}
+.expense_item .blue_box{padding:25px;background:#edf6ff;border:1px solid #d9edff;color:#0d6ac1;line-height:22px}
+
+/*소비중독*/
+.spendaholic_page .top_tab_cont>div{min-height:auto}
+.spendaholic_top{background:#edf6ff url("../images/spendaholic_img.png") no-repeat 5% 50%;padding:47px 0 47px 25%;border:1px solid #d7ecff;}
+.spendaholic_top>p{font-size:1.571em;}
+.spendaholic_top>span{font-size:1em;color:#464646}
+
+.spendaholic fieldset>div{padding:20px 20px 20px 15px;line-height:30px;border-bottom:1px solid #dddddd;clear:both;}
+.spendaholic fieldset>div.bg{background:#f8f8f8}
+.spendaholic fieldset>div>.num{ display:block;
+    width: 28px;
+    height: 28px;
+    background: #afafaf;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+    float:left;
+    margin-right:10px}
+.spendaholic fieldset>div>.input_box{float:right;display:block;width:23%;}
+.spendaholic fieldset>div>.input_box .ml{margin-left:37px}
+
+.spendaholic fieldset .btn_wrap{border-bottom:none;text-align:right}
+.spendaholic fieldset .btn_wrap button{padding:5px 20px;background:#464646;border-radius:5px;color:#fff;border:0}
+.spendaholic>p{font-size:1.357em;color:#0d6ac1;font-weight:bold}
+.spendaholic .spendaholic_box{border:1px solid #d9edff;background:#edf6ff;padding:20px 10px;min-height:218px;margin-bottom:30px}
+.spendaholic .btn_wrap{border-bottom:none;text-align:right}
+.spendaholic .btn_wrap button{padding:9px 20px;background:#464646;border-radius:5px;color:#fff;border:0}
+.spendaholic table{border:1px solid #ddd;border-bottom:0}
+.spendaholic table th{text-align:center;background:#f8f8f8;border-right:1px solid #ddd;border-bottom:1px solid #ddd;}
+.spendaholic table td{padding: 10px;border-bottom:1px solid #ddd;}
+
+/*계산기*/
+.management_method .top_tab_cont>div{min-height:auto}
+.management_method_top{background: url("../images/management_method_bg.png") no-repeat 5% 50%;padding:47px 0 47px 25%;}
+.management_method_top>p{font-size:1.571em;font-weight:bold;}
+.management_method_top>span{font-size:1em;color:#464646}
+.management_method_cont{margin-top:30px}
+.management_method_cont legend{display:none}
+.management_method_cont p{font-weight:bold;color:#0d6ac1;font-size:1.571em}
+.management_method_cont table{letter-spacing:-1px}
+.management_method_cont table th{line-height:40px;padding:0;text-align:center}
+.management_method_cont table td>div{float:left;margin-right:3%;position:relative;padding-right:15px}
+.management_method_cont table td>div>input{position:absolute;top:3px;right:0}
+.management_method_cont table td>input[type="text"]{width:68px}
+.management_method_cont table td{padding:10px 4px;text-align: center}
+
+.management_method .btn_wrap{text-align:center}
+.management_method .btn_wrap button{padding:8px 25px;margin-top:20px}
+
+.management_method_cont .result_wrap table td{border-left:1px solid #ddd}
+.management_method_cont .result_wrap table tfoot th,
+.management_method_cont .result_wrap table tfoot td{background:#f8f8f8;color:#464646}
+/*일자리연계*/
+.supprt_2{padding-left:169px;background:url("../images/suport2.png") no-repeat;margin:45px 0 30px;padding-bottom:20px}
+.supprot_page2{}
+.supprt_2 ol{padding-left:10px}
+.supprt_2 ol li{line-height:25px}
+.supprt_2 ol li>span{line-height:12px}
+.supprt_2 .ol_num{padding-left:52px;margin-top:10px}
+.supprt_2 .one_ol>li{margin-bottom:10px}
+.support_box{border:3px solid #7db0e0;}
+.support_box>ol{padding-left:0}
+.support_box>ol>li{clear:both;border-top:1px solid #dddddd;padding:30px 0;position:relative}
+.support_box>ol>li:first-child{border-top:0}
+.support_box>ol>li>div{display:inline-block;*display:inline;*zoom:1;margin-bottom:0}
+.support_box>ol>li>div.title{width: 34%;}
+.support_box>ol>li>div.title p{font-size:1.250em;color:#464646;font-weight: bold;text-align:center;margin-bottom:0;width: 69%; margin: 0 auto;}
+.support_box>ol>li>div.cont{width:62%;color:#737373}
+.support_box>ol>li>div.cont span{display:block;line-height:24px}
+.support_box>ol>li>.next_img{position:absolute;bottom: -16px;left: 15%;z-index: 10;}
+.support_box>ol>li>.side_img{position:absolute;bottom: -35px;right: 11%;z-index: 10;display:inline-block;*display:inline;*zoom:1;color:#fff;background: url("../images/support_box_bg2.png") no-repeat 50%;background-size: contain;width: 13%;height: 87%;text-align: center;line-height: 78px;padding-left: 2%;font-size: 0.857em;}
+
+/*노후*/
+.supprt_3{padding-left:169px;background:url("../images/suport3.png") no-repeat;margin:45px 0 30px;padding-bottom:20px}
+.supprot_page3 .top_tab_cont{padding:0}
+.supprot_page3 .pink_btn{margin-bottom:30px}
+.supprot_page_box{padding:30px;border-right:1px solid #dddddd;border-left:1px solid #dddddd;border-bottom:1px solid #dddddd;clear:both;}
+.supprot_page_box>p{font-weight:bold;color:#000000;font-size:1.286em}
+.supprot_page_box>span{display:block}
+.supprot_page_box>span.pl17{padding-left:17px}
+.supprot_page_box>span .link{color:#fff;background:#464646;border-radius:3px;font-size:12px;padding:2px}
+
+/*서민금융센터*/
+.supprot_page p{float:none}
+.supprot_page .blue_table{margin-bottom:7px}
+.supprot_page .blue_table th{border-bottom:1px solid #ddd}
+.supprot_page .blue_table td:first-child{/* border-left:0; */color:#464646 !important}
+.supprot_page .blue_table td{padding:10px}
+.supprot_page .blue_table td>span{display:block}
+.no_link_tab .tab_in_table td{padding:20px 15px}
+.no_link_tab .tab_in_table ul{margin-bottom:0}
+
+/*서민금융센터>금융교육*/
+.edu1{padding-left:169px;background:url("../images/edu1_bg.png") no-repeat;margin:45px 0 30px;padding-bottom:20px}
+.supprot_page .no_link_tab .no_tab_cont_top>div>div{padding-left:10px;}
+/* .supprot_page .no_link_tab .no_tab_cont_top>div>span{color:#002b7f} */
+.supprot_page .no_link_tab .no_tab_cont_top>div>table td{padding:15px}
+.supprot_page .no_link_tab .no_tab_cont_top>div>div>ul>li>span{display:block}
+.supprot_page .no_link_tab .no_tab_cont_top>div>div>p{font-size:1em;color:#464646;}
+.supprot_page .no_link_tab .no_tab_cont_top>div>div>span{font-size:1em;color:#002b7f;padding-left:10px}
+.supprot_page .no_link_tab .no_tab_cont_top>div>div>table td{padding:10px 15px}
+
+.bottom_tab_box{border-top:1px solid #ddd;padding:38px 30px}
+
+/*불법사금융 신고*/
+.supprt_5{padding-left:169px;background:url("../images/support_5.png") no-repeat;margin:45px 0 30px;padding-bottom:20px}
+.supprt_5 .supprt_5_topbox{background:#f8f8f8;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:34px 30px}
+.supprt_5 .supprt_5_topbox>p{color:#e6335b;font-size:1.786em;}
+.supprt_5 .supprt_5_topbox>span{color:#2929;font-size:1.286em;font-weight: bold}
+.supprt_5 .supprt_5_topbox>img{margin:0 7%;}
+.supprt_5 .supprt_5_topbox .pink_btn{float:none;display:inline-block;*display:inline;*zoom:1;margin-bottom:0;padding:9px 25px}
+
+.supprt_5_box{border:1px solid #ddd;padding:35px}
+.supprt_5_box>div>p{font-weight:bold;color:#000000;font-size: 1.286em}
+.supprt_5_box>div>span{display:block;color:#464646;font-size:1.071em;padding-left:17px}
+.supprt_5_box>div>span.blue_title{color:#002b7f;font-weight:bold}
+
+/*서민금융센터>자활재기지원>컨설팅*/
+.supprt_6{padding-left:169px;background:url("../images/supprt_6_bg.png") no-repeat;margin:45px 0 30px;border-bottom:1px solid #dddddd;padding-bottom:20px}
+.list_box>p{font-size:1.357em;color:#0d6ac1;font-weight:bold;margin-bottom:6px}
+.list_box>ul{padding-left:10px}
+.list_box>ul>li{font-size:1.071em;color:#464646;line-height:27px}
+.list_box>ul>li>ul{padding-left:70px}
+
+.list_box ul.su_list_box{padding-left:0;padding-top:7px}
+.list_box ul.su_list_box li{display:inline-block;*display:inline;*zoom:1;font-size:1em;height:61px;padding-top:20px;line-height:20px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.list_box ul.su_list_box li:nth-child(1),
+.list_box ul.su_list_box li:nth-child(2),
+.list_box ul.su_list_box li:nth-child(3){border-top:1px solid #dddddd;}
+.list_box ul.su_list_box li:nth-child(1),
+.list_box ul.su_list_box li:nth-child(4),
+.list_box ul.su_list_box li:nth-child(7),
+.list_box ul.su_list_box li:nth-child(10){border-left:1px solid #dddddd;}
+
+
+.list_box .blue_box{background:#edf6ff;border:1px solid #d7ecff;padding:28px 30px}
+.list_box .blue_box>div{margin-bottom:28px;font-size:1.071em}
+.list_box .blue_box>div>img{display:block;margin-right:25px;float:left}
+
+
+/*서민금융센터>자활재기지원>봉사단*/
+.supprt_6_2{padding-left:169px;background:url("../images/supprt_6_2_bg.png") no-repeat;margin:45px 0 30px;border-bottom:1px solid #dddddd;padding-bottom:20px}
+.list_box .blue_box>.title_box{width:140px;font-size:1.929em;font-weight:bold;color:#fff;padding:25px;background:#0d6ac1;float:left;margin-right:20px;height:140px}
+.list_box2 >p{font-size:1.286em;color:#0d6ac1;font-weight:bold;margin-bottom:6px}
+.list_box .blue_box .list_box2{float:left;margin-top: 10px;margin-bottom:10px}
+.blue_box .list_box2>ul{padding-left:0}
+.blue_box .list_box2>ul li{line-height:29px}
+.blue_box .list_box2:last-child{padding-left:160px}
+
+
+@media (max-width: 720px){
+/*서민금융센터>자활재기지원>봉사단*/
+.list_box .blue_box>.title_box{display:none}
+.blue_box .list_box2:last-child{padding-left:0}
+}
+
+@media (max-width: 640px){
+.no_link_tab>ul>li button{padding:0;letter-spacing:-1px}
+
+.top_tab_cont>div{min-height:101px}
+.top_tab_cont>div>span{padding-right:90px;display:block;margin-bottom:20px}
+
+/*무료신용조회*/
+.support_1{padding-left:0;background:none;margin-top:0}
+.support_1_mo{background:url("../images/suport1.png") no-repeat right 0;background-size:contain;}
+
+/*일자리연계>취업지원*/
+.supprt_2{padding-left:0;background:none;margin-top:0}
+.supprt_2_mo{background:url("../images/suport2.png") no-repeat right 0;background-size:contain;}
+
+/*일자리연계>노후설계*/
+.supprt_3{padding-left:0;background:none;margin-top:0}
+.supprt_3_mo{background:url("../images/suport3.png") no-repeat right 0;background-size:contain;}
+
+/*일자리연계>행복잡*/
+.support_box>ol>li>div.title{width:35%}
+.support_box>ol>li>div.title p{width:100%;margin:0}
+.support_box>ol>li>div.cont{width:64%}
+
+
+.management_method_top{background:none;padding:0;}
+
+.edu1{padding-left:0;background:none;margin-top:0}
+.edu1_mo{background:url("../images/edu1_bg.png") no-repeat right 0;background-size:contain;}
+
+/*신고*/
+.supprt_5{padding-left:0;background:none;margin-top:0}
+.supprt_5_mo{background:url("../images/support_5.png") no-repeat right 0;background-size:contain;}
+
+
+.supprt_6{padding-left:0;background:none;margin-top:0;}
+.supprt_6_mo{background:url("../images/supprt_6_bg.png") no-repeat right 0;background-size:contain;}
+
+/*서민금융센터>자활재기지원>봉사단*/
+.supprt_6_2{padding-left:0;background:none;margin-top:0;}
+.supprt_6_2_mo{background:url("../images/supprt_6_2_bg.png") no-repeat right 0;background-size:contain;}
+}
+
+
+
+@media (max-width: 588px){
+	.support_box>ol>li>div.title{padding:1%}
+	.support_box>ol>li>div.title p{font-size: 1.05em;line-height:28px}
+	.support_box>ol>li>div.cont span{line-height:17px}
+	.support_box>ol>li>div.cont span.little_blue_dot_p{background: url("../images/little_blue_dot.png") no-repeat 0px 6px;}
+	.support_box>ol>li>.next_img{width:24px;height:25px}
+	.support_box>ol>li>.next_img img{width:100%}
+
+}
+@media (max-width: 700px){
+.management_cont ul li{min-height:181px}
+}
+
+@media (max-width: 570px){
+.spendaholic fieldset>div>.input_box{width:auto;}
+}
+
+@media (max-width: 525px){
+
+	/**/
+	.management_method table th{padding:3px}
+	.management_method table td{padding:3px}
+	.management_method table th .label{margin-bottom:0}
+
+	.management_method_cont table th{line-height:19px}
+	.management_method_cont table td>input[type="text"]{width:50px}
+	/*쇼핑중독 모바일깨짐 맞추기*/
+	.spendaholic fieldset>div>.input_box .ml{margin-left:0}
+
+	.management_cont ul li .num{margin-top:10px}
+	.management_cont ul li{padding:5px;min-height:181px}
+
+}
+@media (max-width: 520px){
+	.no_link_tab>ul>li button{font-size:0.9em}
+	.support_box>ol>li>.side_img{ width: 16%;height: 49%; text-align: center;line-height: 56px;padding-left: 2%;font-size: 0.2em;bottom:-18px}
+
+	.list_box ul.su_list_box li{font-size:0.5em;padding: 16px 4px;height: 63px;}
+}
+
+@media (max-width: 490px){
+	/*쇼핑중독 모바일깨짐 맞추기*/
+	.spendaholic_top{background-size:18%}
+	.spendaholic fieldset>div{font-size:0.9em;line-height:20px;}
+	.spendaholic fieldset>div>.num{width:20px;height:20px;margin-right:5px;line-height:20px}
+
+	/*bluebox*/
+	.supprot_page .list_box .blue_box>div>img{float:none;margin-bottom:10px}
+}
+
+@media (max-width: 475px){
+
+	.supprt_2_mo,
+	.supprt_5_mo,
+	.supprt_6_2_mo{background-size:23%}
+	.supprt_5_box{padding:30px 13px}
+
+	/*table깨짐*/
+	.expense_item table td{padding:0 5px}
+	.expense_item table td input{width:72%}
+}
+
+
+
+@media (max-width: 435px){
+	.no_link_tab>ul>li button{font-size:0.8em;letter-spacing: -2.5px;}
+	/*쇼핑중독 모바일깨짐 맞추기*/
+	.spendaholic fieldset>div>.input_box{float:none;padding-left:28px;margin-top:3px}
+	.spendaholic fieldset>div>.input_box .ml{margin-left:13%}
+}
+@media (max-width: 422px){
+	.support_box>ol>li{margin-bottom:8px}
+	.support_box>ol>li>.next_img{margin-bottom:-8px}
+	.management_cont ul li{min-height:229px}
+	.support_1_mo{background-size:25%}
+}
+
+
+@media (max-width: 385px){
+/* 	.no_link_tab>ul>li button{font-size:0.5em;letter-spacing:-2.5px} */
+}
+
+@media (max-width: 360px){
+.support_1{padding-bottom:0}
+.support_btn_box li:first-child{margin: 0 auto;margin-bottom:10px}
+.support_btn_box li{float:none;width:80%;margin:0 auto;margin-bottom:10px}
+}

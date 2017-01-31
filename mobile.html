@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>브라우저 해결방법 | 서민금융</title>
+    <!-- css-->
+    <link href="../lib/css/common.css" rel="stylesheet">
+    <link href="../lib/css/ie.css" rel="stylesheet">
+  </head>
+  <body>
+  	<p>모바일에서 접속했는지 확인</p>
+	<button id="btn">확인</button>
+	 
+	<div id="dialog" title="확인">
+	  <p></p>
+	</div>
+  </body>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />  <script>
+	    function isMobile() {
+		    var filter = "win16|win32|win64|mac|macintel";
+		    if( navigator.platform  ){
+		      if( filter.indexOf(navigator.platform.toLowerCase())<0 ){
+		        return true;
+		      }else{
+		        return false;
+		      }
+		    }
+		}
+		 
+		  $(function() {
+		    $( "#btn" )
+		      .button()
+		      .click(function( event ) {
+		        if(isMobile()) {
+		            $( "#dialog" ).html("모바일이다");
+		            
+		        } else {
+		            $( "#dialog" ).html("데스크탑이다");
+		            console.log(indexOf(navigator.platform.toLowerCase()))
+		        }
+		 
+		        $( "#dialog" ).dialog({
+		            height: 140,
+		            modal: true
+		        });
+		      });
+		  });
+  </script>
+</html>

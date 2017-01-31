@@ -1,0 +1,31 @@
+/*기타 css*/
+.fi_blue_tab6 li .top_tab_cont{width:300%}
+.fi_blue_tab6 li:nth-child(2) .top_tab_cont{left:-100%}
+.fi_blue_tab6 li:nth-child(3) .top_tab_cont{left:-200%}
+
+.ect1_tab .tab_cont{width:300%}
+.ect1_tab li:nth-child(2) .tab_cont{left:-100%}
+.ect1_tab li:nth-child(3) .tab_cont{left:-200%}
+
+.ect3_tab .tab_cont{width:500%}
+.ect3_tab li:nth-child(2) .tab_cont{left:-100%}
+.ect3_tab li:nth-child(3) .tab_cont{left:-200%}
+.ect3_tab li:nth-child(4) .tab_cont{left:-300%}
+.ect3_tab li:nth-child(5) .tab_cont{left:-400%}
+/*진흥원 소개 css*/
+.recurit_tab li .tab_cont{width:200%}
+.recurit_tab li:nth-child(2) .tab_cont{left:-100%}
+
+/*3개*/
+.notice_tab li .tab_cont{width:300%}
+
+.notice_tab li:nth-child(2) .tab_cont{left:-100%}
+.notice_tab li:nth-child(3) .tab_cont{left:-200%}
+
+/*5개*/
+.faq_tab li .tab_cont{width:500%}
+
+.faq_tab li:nth-child(2) .tab_cont{left:-100%}
+.faq_tab li:nth-child(3) .tab_cont{left:-200%}
+.faq_tab li:nth-child(4) .tab_cont{left:-300%}
+.faq_tab li:nth-child(5) .tab_cont{left:-400%}

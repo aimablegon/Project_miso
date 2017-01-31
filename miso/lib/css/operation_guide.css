@@ -1,0 +1,16 @@
+.individual_information{font-size:1.071em;color:#464646}
+.individual_information>h4{color:#002b7f;font-size:1.8em;text-align:center;margin-bottom:20px;font-weight:bold}
+.individual_information>p{margin-bottom:10px}
+
+.individual_information_list{padding:20px 0;border-bottom:1px solid #dddddd}
+.individual_information_list>h5{color:#292929;font-size:17px;font-weight:bold}
+.individual_information_list pre{border:none;background:none;font-size:1.071em;color:#464646;line-height:23px}
+.individual_information_list>p{margin-bottom:20px;letter-spacing:-1px}
+.individual_information_list>p>span{display:block;}
+.individual_information_list>p>.title{font-weight:bold;text-align:left}
+.individual_information_list>p>.cont{padding-left:17px}
+
+
+@media (max-width: 640px){
+	.individual_information{padding: 0 10px}
+}

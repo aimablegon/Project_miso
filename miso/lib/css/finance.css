@@ -1,0 +1,304 @@
+/*서민금융상품*/
+.no_link_tab{clear:both}
+
+/*서민금융센터>맞춤형상품조회>대상별*/
+.result_wrap  span.result_subtitle{font-size:14px;color:#464646;padding-left:13px}
+
+.target_tab{padding-left:0}
+.target_tab li{height:151px;}
+.target_tab li a{display:block;width:100%;height:100%;}
+
+.target_tab li a.target_tab1{background:url("../images/target_tab1.png") no-repeat;background-size:contain}
+.target_tab li.on a.target_tab1{background:url("../images/target_tab1_on.png") no-repeat;background-size:contain}
+
+.target_tab li a.target_tab2{background:url("../images/target_tab2.png") no-repeat;background-size:contain}
+.target_tab li.on a.target_tab2{background:url("../images/target_tab2_on.png") no-repeat;background-size:contain}
+
+.target_tab li a.target_tab3{background:url("../images/target_tab3.png") no-repeat;background-size:contain}
+.target_tab li.on a.target_tab3{background:url("../images/target_tab3_on.png") no-repeat;background-size:contain}
+
+.target_tab li a.target_tab4{background:url("../images/target_tab4.png") no-repeat;background-size:contain}
+.target_tab li.on a.target_tab4{background:url("../images/target_tab4_on.png") no-repeat;background-size:contain}
+
+/*채무지원*/
+.debt_cont p{float:none}
+.debt_cont>p{font-size:1.143em;color:#464646;margin-bottom:0;}
+
+.debt_cont fieldset ul{padding-left:0;border:1px solid #dddddd;border-top:0;margin-top:10px}
+.debt_cont fieldset ul>li{background:#f8f8f8;border-top:1px solid #dddddd;padding:23px 20px}
+.debt_cont fieldset ul>li .num{font-size:1.357em;color:#464646}
+.debt_cont fieldset ul>li .num>span{color:#fff;background:#afafaf;border-radius:50%;width:28px;height:28px;line-height:28px;text-align:center;font-size:15px;display:block;float:left;margin-right:5px}
+.debt_cont fieldset ul>li .ques{padding-left:33px;color:#464646;font-size:}
+.debt_cont fieldset ul>li .input_wrap{padding-left:33px}
+.debt_cont fieldset ul>li .input_wrap>div{display:inline-block;*display:inline;*zoom:1;position:relative;margin-bottom:9px}
+.debt_cont fieldset ul>li:nth-child(5) .input_wrap>div{display: block}
+.debt_cont fieldset ul>li .input_wrap>div input[type="radio"]{float:left;margin-right:5px}
+.debt_cont fieldset ul>li .input_wrap>div input[type="text"]{margin-right:42px;width:184px;line-height:0}
+.debt_cont fieldset ul>li .input_wrap label{margin-right:5px}
+.debt_cont fieldset ul>li .input_wrap span{font-size:0.9em;position:absolute;right:56px;bottom:6px}
+.debt_cont fieldset button{border:0;padding:10px 35px}
+
+.debt_cont .result{}
+.debt_cont .result>p{font-size:1.357em;font-weight:bold;color:#0d6ac1}
+.debt_cont .result>span{font-size:1.143em}
+.debt_cont .result .table_wrap{text-align:right}
+.debt_cont .result .table_wrap table{border-top:2px solid #555555;border-bottom:1px solid #ddd;}
+.debt_cont .result .table_wrap table th,
+.debt_cont .result .table_wrap table td{text-align:center;padding:10px 0}
+.debt_cont .result .table_wrap table th{background:#f8f8f8;line-height:20px}
+.debt_cont .result .table_wrap table td{border-top:1px solid #dddddd}
+
+.debt_cont .result .result_bluebox{border:1px solid #d9edff;background:#edf6ff;color:#464646;font-size:1em;padding:20px}
+.debt_cont .result button{border:none;margin-top:20px}
+
+.debt_cont legend{    position: absolute;font-size: 0; letter-spacing: 0;text-indent: -9999px;border: 0;}
+
+/*채무조정제도*/
+.financ_5 p{float:none}
+
+/*일반금융*/
+.general_finance{ text-align:center}
+.general_finance>p{float:none;font-size:1.857em;font-weight:bold}
+.general_finance>ul{padding-left:0;margin-top:55px}
+.general_finance>ul>li{border:5px solid #f0f0f0;float:left;width:32.3%;padding:200px 0 40px;text-align:center;margin-left:1%;min-height:448px}
+.general_finance>ul>li:first-child{margin-left:0}
+.general_finance>ul>li.need{background:url("../images/general_finance1.png") no-repeat 50% 15%}
+.general_finance>ul>li.need>p{color:#e6335b}
+
+.general_finance>ul>li.rich{background:url("../images/general_finance2.png") no-repeat 50% 15%}
+.general_finance>ul>li.rich>p{color:#20b14a}
+
+.general_finance>ul>li.ready{background:url("../images/general_finance3.png") no-repeat 50% 15%}
+.general_finance>ul>li.ready>p{color:#0d6ac1}
+
+.general_finance>ul>li>p{float:none;font-size:1.929em;line-height:48px;font-weight:bold}
+.general_finance>ul>li>ul{padding-left:0}
+.general_finance>ul>li>ul>li{font-size:1.214em;color:#464646;font-weight:bold;line-height:35px}
+
+.general_finance .go_btn{margin-left:10px}
+
+
+/*전통상인대출*/
+.seller_cont ul>li>ul>li>span{line-height:20px}
+.seller{padding-left:169px;background:url("../images/tkdls_bg.png") no-repeat;margin:45px 0 50px;min-height: 134px;}
+.seller_cont>ul>li{width:48%;float:left;margin-left:0.5%;border-bottom:1px solid #dadada;margin-bottom:30px;clear:none}
+.seller_cont>ul>li:first-child{margin:0}
+.seller_cont>ul>li>div{border-top:3px solid #81aad2;padding:15px 0;text-align: center;background:#f1f4f7;border-bottom:1px solid #dadada;font-size:1.286em;color:#002b7f;font-weight:bold}
+.seller_cont>ul>li>ul{padding:20px;line-height: 23px;min-height: 200px;}
+.seller_cont>ul>li>ul>li{font-size:14px;color:#464646;line-height:30px}
+
+
+
+/*대학생.청년*/
+.student{background:url("../images/change_bg.png")no-repeat;}
+.top_tab_cont_wrap .top_tab_cont .student>ul>li{padding-left:0}
+.top_tab_cont_wrap .top_tab_cont .student>ul>li>span{color:#464646;font-size:15px;}
+.top_tab_cont_wrap .top_tab_cont .student>ul .blue_dot{background:url("../images/little_blue_dot.png") no-repeat 0px 13px;font-size:15px;color:#464646;padding-left:10px;}
+.top_tab_cont_wrap .top_tab_cont .student>ul .small_gray{font-size:13px;color:#666666;line-height:11px}
+
+.top_tab_cont_wrap .top_tab_cont .student2>ul{padding-left:10px}
+.top_tab_cont_wrap .top_tab_cont .student2>ul>li{padding-left:0;line-height:30px;margin-bottom:5px}
+.top_tab_cont_wrap .top_tab_cont .student2>ul>li>span{display:block;line-height:20px;padding-left:10px}
+.top_tab_cont_wrap .top_tab_cont .student2>ul .blue_dot{background:url("../images/little_blue_dot.png") no-repeat 0px 7px;font-size:15px;color:#464646;padding-left:10px;}
+.top_tab_cont_wrap .top_tab_cont .student2>ul .small_gray{font-size:13px;color:#666666;line-height:11px}
+
+
+/*생계주거자금*/
+.life_bg{background:url("../images/life_bg.png") no-repeat}
+.life_bg .blue_ta{text-align:center;line-height: 20px;color:#464646}
+.life_bg .blue_ta thead th{border-top:2px solid #81aad2;border-bottom:1px solid #ddd;text-align:center;color:#002b7f;font-weight:bold;background:#f1f4f7;padding:10px 0}
+.life_bg .blue_ta tbody td{padding:10px 5px;letter-spacing:-1px;border-left:1px solid #ddd;border-bottom:1px solid #ddd}
+.life_bg .blue_ta tbody td:first-child{border-left:0;}
+.life
+.life .no_link_tab>ul>li{min-height:48px}
+
+.life .no_link_tab>ul>li:nth-child(1),
+.life .no_link_tab>ul>li:nth-child(2),
+.life .no_link_tab>ul>li:nth-child(3),
+.life .no_link_tab>ul>li:nth-child(4){border-bottom:1px solid #ddd;}
+.life .no_link_tab>ul>li:nth-child(7){border-right:1px solid #ddd;}
+
+.fi_goods3_table tbody th{background:#fff;border-bottom:1px solid #ddd}
+.fi_goods3_table tbody td{text-align:center}
+
+.easycenter{line-height:0}
+.no_link_tab_cont .easycenter img{margin-right:0}
+.no_link_tab_cont .ad_call_center span.sub_title2{margin-bottom: 0;display: inline-block !important;*display:inline;*zoom:1;line-height: 33px;font-size:1em;color:#003067;font-weight:bold;margin-right:5px}
+.no_link_tab_cont .ad_call_center span.sub_title3{line-height: 14px;font-size: 0.929em;color: #002b7f;margin-top:10px;padding-left:15px}
+
+.sunset_link{display: block;float: right;padding: 7px;border-radius: 3px;background: #e6335b;color: #fff;width: 29%;margin-bottom: 30px;margin-top: 17px;text-align:center}
+
+/*저금리전환*/
+.ad_call_center .title{display: inline-block;*display:inline;*zoom:1;width:13%;float:none;}
+.fi_cont2 .ad_call_center{height:auto}
+.fi_cont2 .ad_call_center{line-height:50px}
+.fi_cont2 .ad_call_center>div{display:inline-block;*display:inline;*zoom:1;}
+.fi_cont2 .ad_call_center>div.first{border-right:1px solid #d2dfed;padding-right:1%}
+
+
+
+
+@media (max-width: 677px){
+	.ad_call_center .title{font-size:13px;width:10%}
+	.ad_call_center .sub_title{padding-left:0}
+
+	/*맞춤조회 이미지탭 부분*/
+	.target_tab li{padding:1%}
+}
+
+
+@media (max-width: 605px){
+	.seller_cont>ul>li>ul>li{font-size:13px}
+	.substance>ul>li p{font-size:14px}
+
+
+}
+
+@media (max-width: 640px){
+.top_tab_cont_wrap .top_tab_cont>span,
+.top_tab_cont_wrap .top_tab_cont>.mobile_bg>span{padding-right:100px;display: block;}
+.top_tab_cont_wrap .top_tab_cont .top_cont ul{padding-left:0}
+.ad_call_center .sub_title{margin-right:0}
+
+.mobile_bg{min-height:90px;background-size:contain}
+/* .top_tab_cont{padding-left:10px;padding-right:10px} */
+
+/*이미지 탭영역 부분*/
+.use_tab li{height:124px}
+.target_tab li{height:147px}
+
+
+
+/*상단 이미지 영역*/
+
+/*창업운영자금*/
+.target{background:none}
+.target_mo{background:url("../images/support_target_bg.png") no-repeat right 0;background-size:contain}
+
+/*전통시장상인대출*/
+.seller{background:none;min-height:0;}
+.seller_mo{background:url("../images/tkdls_bg.png") no-repeat right 0;background-size:contain}
+
+/*햇살론*/
+.sunset{background:none;min-height:0;}
+.sunset_mo{background:url("../images/sunset_bg.png") no-repeat right 0;background-size:contain}
+
+/*바꿔드림론*/
+.change_bg_mo{background:url("../images/change_bg.png") no-repeat right 0;background-size:contain}
+
+
+/*햇살론2*/
+.sunset_bg_mo{background:url("../images/change_bg.png") no-repeat right 0;background-size:contain}
+
+/*학생.청년*/
+.student_mo{background:url("../images/change_bg.png") no-repeat right 0;background-size:contain}
+
+/*생계주거자금*/
+.life_bg_mo{background:url("../images/life_bg.png") no-repeat right 0;background-size:contain}
+.life_bg{background:none;}
+
+.abode_bg_mo{background:url("../images/abode_bg.png") no-repeat right 0;background-size:contain}
+.abode_bg{background:none;}
+
+/*민간복지사업*/
+.fi_top_cont_bg{background:url("../images/pot_bg.png") no-repeat right 0;background-size:contain}
+
+/*미소드림적금*/
+.fi_top_cont2_bg{background:url("../images/fi_bg6_2.png") no-repeat right 0;background-size:contain}
+
+/*소액보험*/
+.fi_top_cont3_bg{background:url("../images/fi_bg6_3.png") no-repeat right 0;background-size:contain}
+}
+
+
+@media (max-width: 590px){
+	.ad_call_center .title{width:19%;border-right:0}
+	.fi_cont2 .ad_call_center>div{width:80%;margin-left:19.8%;border-left:1px solid #d2dfed}
+	.fi_cont2 .ad_call_center>div.first{width:70%;border-right:0;margin-left:0;border-bottom:1px solid #d2dfed}
+}
+
+@media (max-width: 577px){
+	.no_link_tab>ul>li>button{font-size:10px;letter-spacing:-2px;padding:0}
+	.suset_tab>ul{min-height:42px}
+
+	.seller_cont > ul > li > ul{padding:20px 10px}
+}
+
+
+
+@media (max-width: 530px){
+	/*이미지 탭영역 부분*/
+	.use_tab li{height:106px}
+	.target_tab li{height:123px}
+
+	.result_wrap .result_notice{padding:45px 10px}
+
+	/*일반금융*/
+	.general_finance>ul>li{width:100%;float:none;margin-left:0;margin-bottom:15px}
+
+}
+@media (max-width: 517px){
+	.no_link_tab_cont .ad_call_center span.sub_title2{line-height:65px}
+}
+
+@media (max-width: 475px){
+.mobile_bg{min-height:100px}
+/*창업운영자금*/
+.target_mo{background-size:23%}
+
+/*전통시장상인대출*/
+.seller_mo{background-size:23%}
+
+/*햇살론*/
+.sunset_mo{background-size:23%}
+
+/*바꿔드림론*/
+.change_bg_mo{background-size:23%}
+
+
+/*햇살론2*/
+.sunset_bg_mo{background-size:23%}
+
+/*학생.청년*/
+.student_mo{background-size:23%}
+
+/*생계주거자금*/
+.life_bg_mo{background-size:23%}
+
+.abode_bg_mo{background-size:23%}
+
+/*민간복지사업*/
+.fi_top_cont_bg{background-size:23%}
+
+/*미소드림적금*/
+.fi_top_cont2_bg{background-size:23%}
+
+/*소액보험*/
+.fi_top_cont3_bg{background-size:23%}
+
+
+}
+
+
+@media (max-width: 440px){
+	.no_link_tab>ul>li>button{font-size:10px;letter-spacing:-2px;padding:0}
+	.general_finance .go_btn{margin-top:10px}
+	.finance_goods1 .result_wrap{padding-top:4%}
+}
+
+@media (max-width: 420px){
+	/*이미지 탭영역 부분*/
+	.use_tab li{height:80px}
+	.target_tab li{height:93px}
+
+	/*채무조정제도*/
+	.debt_cont fieldset ul>li{padding:23px 11px }
+	.debt_cont fieldset ul>li .input_wrap>div input[type="text"]{width:auto;line-height:0}
+
+	/*소액보험*/
+	.finance_goods_6_3>ul>li{line-height:12px}
+	.finance_goods_6_3>ul>li>button{word-break: initial;padding:1px}
+}
+@media (max-width: 350px){
+	.no_link_tab>ul>li>button{font-size:10px}
+}

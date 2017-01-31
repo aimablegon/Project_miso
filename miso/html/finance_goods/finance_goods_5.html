@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>서민금융|서민금융상품|채무조정제도</title>
+    <!-- css-->
+    <link href="../../boot/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../../lib/css/common.css" rel="stylesheet">
+    <link href="../../lib/css/sub_cont.css" rel="stylesheet">
+    <link href="../../lib/css/tab.css" rel="stylesheet">
+    <link href="../../lib/css/finance.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<!--상단메뉴영역-->
+	<header class="navbar-fixed-top">
+		<div class="skip_nav">
+			<a href="#skip_main">본문 바로가기</a>
+			<a href="#main_nav">주메뉴 바로가기</a>
+		</div>
+		<div class="top_head">
+			<div class="container">
+			  	<h1><a href="../main.html"><img src="../../lib/images/logo.png" alt="서민금융진흥원"></a></h1>
+			  	<div class="top_head_wrap">
+			  		<a class="add_bookmark" href="#">즐겨찾기등록</a>
+			  		<a class="all_menue" href="#main_nav">전체메뉴</a>
+			  		<!-- Single button -->
+					<div class="btn-group top_head_bt_group">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+					    한국어 <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+					    <li><a href="#">한국어</a></li>
+					    <li><a href="#">영어</a></li>
+					    <li><a href="#">중국어</a></li>
+					  </ul>
+					</div>
+			  	</div>
+		  	</div>
+		</div>
+		<div class="gnb_wrap pc_nav">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">메뉴버튼</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul id="main_nav" class="nav navbar-nav dep_1">
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="finance_goods_1.html">서민금융상품</a>
+			        	<div>
+				        	<ul class="dep_2">
+						        <li><a href="finance_goods_1.html">맞춤조회</a></li>
+					        	<li><a href="finance_goods_2.html">창업·운영자금</a></li>
+					        	<li><a href="finance_goods_3.html">생계·주거자금</a></li>
+					        	<li><a href="finance_goods_4.html">저금리 전환</a></li>
+					        	<li><a href="finance_goods_5.html">채무조정 제도</a></li>
+								<li><a href="finance_goods_6.html">기타</a></li>
+			        		</ul>
+			        	</div>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="../person_support/person_support_1.html">서민생활안내</a>
+			        	<div>
+				        	<ul class="dep_2">
+					        	<li><a href="../person_support/person_support_1.html">신용·재무진단</a></li>
+					        	<li><a href="../person_support/person_support_2.html">일자리</a></li>
+					        	<li><a href="../person_support/person_support_3.html">노후설계</a></li>
+					        	<li><a href="../person_support/person_support_4.html">금융교육</a></li>
+					        	<li><a href="../person_support/person_support_5.html">불법사금융</a></li>
+					        	<li><a href="../person_support/person_support_6.html">자활·재기지원 </a></li>
+				        	</ul>
+			        	</div>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="../deposit_guide/deposit_guide_1.html">휴면예금안내</a>
+			        	<div>
+				        	<ul class="dep_2">
+					        	<li><a href="../deposit_guide/deposit_guide_1.html">휴면예금 안내</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_2.html">출연휴면예금 조회</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_3.html">출연휴면예금 상속인조회</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_4.html">출연금융기관 안내</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_5.html">기부하기</a></li>
+				        	</ul>
+			        	</div>
+			        </li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="../cliente_center/cliente_center_1.html">고객센터</a>
+						<div>
+							<ul class="dep_2">
+					        	<li><a href="../cliente_center/cliente_center_1.html">상담센터 찾기</a></li>
+					        	<li><a href="../cliente_center/cliente_center_2.html">자주 하는 질문</a></li>
+					        	<li><a href="../cliente_center/cliente_center_3.html">묻고 답하기</a></li>
+					        	<li><a href="../cliente_center/cliente_center_4.html">신문고</a></li>
+			        		</ul>
+						</div>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="../introduce/introduce_1.html">진흥원소개</a>
+						<div>
+							<ul class="dep_2">
+					        	<li><a href="../introduce/introduce_1.html">비전 및 경영목표</a></li>
+					        	<li><a href="../introduce/introduce_2.html">설립·연혁</a></li>
+					        	<li><a href="../introduce/introduce_3.html">원장 소개</a></li>
+					        	<li><a href="../introduce/introduce_4.html">조직</a></li>
+					        	<li><a href="../introduce/introduce_5.html">뉴스·보도자료</a></li>
+					        	<li><a href="../introduce/introduce_6.html">공시·자료</a></li>
+					        	<li><a href="../introduce/introduce_7.html">공지사항</a></li>
+					        	<li><a href="../introduce/introduce_8.html">채용공고</a></li>
+					        	<li><a href="../introduce/introduce_9.html">찾아오시는 길</a></li>
+				        	</ul>
+						</div>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="../gov/gov_1.html">정부3.0</a>
+						<div>
+							<ul class="dep_2">
+					        	<li><a href="../gov/gov_1.html">정보공개 안내</a></li>
+					        	<li><a href="../gov/gov_2.html">사전정보 공개목록</a></li>
+					        	<li><a href="../gov/gov_3.html">정보공개창구</a></li>
+					        	<li><a href="../gov/gov_5.html">사전정보 공표</a></li>
+					        	<li><a href="../gov/gov_7.html">공공데이터 개방</a></li>
+				        	</ul>
+						</div>
+					</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			    <button class="gnb_c_Btn" >메뉴닫기</button>
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<div class="dep2_bg"></div>
+		</div>
+
+		<div id="mobile_nav" class="gnb_wrap mobile_nav">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+			        <span class="sr-only">메뉴버튼</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			      <ul id="main_cont" class="nav navbar-nav dep_1">
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">서민금융상품</a>
+			        	<ul class="dep_2">
+				        	<li><a href="finance_goods_1.html">맞춤조회</a></li>
+				        	<li><a href="finance_goods_2.html">창업·운영자금</a></li>
+				        	<li><a href="finance_goods_3.html">생계·주거자금</a></li>
+				        	<li><a href="finance_goods_4.html">저금리 전환</a></li>
+				        	<li><a href="finance_goods_5.html">채무조정 제도</a></li>
+				        	<li><a href="finance_goods_6.html">기타</a></li>
+			        	</ul>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">서민생활안내</a>
+			        	<ul class="dep_2">
+				        	<li><a href="../person_support/person_support_1.html">신용·재무진단</a></li>
+				        	<li><a href="../person_support/person_support_2.html">일자리</a></li>
+				        	<li><a href="../person_support/person_support_3.html">노후설계</a></li>
+				        	<li><a href="../person_support/person_support_4.html">금융교육</a></li>
+				        	<li><a href="../person_support/person_support_5.html">불법사금융</a></li>
+				        	<li><a href="../person_support/person_support_6.html">자활·재기지원 </a></li>
+			        	</ul>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">휴면예금안내</a>
+			        	<ul class="dep_2">
+				        	<li><a href="../deposit_guide/deposit_guide_1.html">휴면예금 안내</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_2.html">출연휴면예금 조회</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_3.html">출연휴면예금 상속인조회</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_4.html">출연금융기관 안내</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_5.html">기부하기</a></li>
+			        	</ul>
+			        </li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">고객센터</a>
+						<ul class="dep_2">
+				        	<li><a href="../cliente_center/cliente_center_1.html">상담센터 찾기</a></li>
+				        	<li><a href="../cliente_center/cliente_center_2.html">자주 하는 질문</a></li>
+				        	<li><a href="../cliente_center/cliente_center_3.html">묻고 답하기</a></li>
+				        	<li><a href="../cliente_center/cliente_center_4.html">신문고</a></li>
+			        	</ul>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">진흥원소개</a>
+						<ul class="dep_2">
+				        	<li><a href="../introduce/introduce_1.html">비전 및 경영목표</a></li>
+				        	<li><a href="../introduce/introduce_2.html">설립·연혁</a></li>
+				        	<li><a href="../introduce/introduce_3.html">원장 소개</a></li>
+				        	<li><a href="../introduce/introduce_4.html">조직</a></li>
+				        	<li><a href="../introduce/introduce_5.html">뉴스·보도자료</a></li>
+				        	<li><a href="../introduce/introduce_6.html">공시·자료</a></li>
+				        	<li><a href="../introduce/introduce_7.html">공지사항</a></li>
+				        	<li><a href="../introduce/introduce_8.html">채용공고</a></li>
+				        	<li><a href="../introduce/introduce_9.html">찾아오시는 길</a></li>
+			        	</ul>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">정부3.0</a>
+						<ul class="dep_2">
+				        	<li><a href="../gov/gov_1.html">정보공개 안내</a></li>
+				        	<li><a href="../gov/gov_2.html">사전정보 공개목록</a></li>
+				        	<li><a href="../gov/gov_3.html">정보공개창구</a></li>
+				        	<li><a href="../gov/gov_5.html">사전정보 공표</a></li>
+				        	<li><a href="../gov/gov_7.html">공공데이터 개방</a></li>
+			        	</ul>
+					</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+  	</header>
+  	<!--메뉴 영역 끝-->
+  	<!--메인 영역-->
+  	<section id="main_body">
+	   <div class="sub_top_img">
+		   <h2>서민금융상품</h2>
+		   <p>제도 금융기관 이용이 어려운 분들에게 무담보·무보증으로 지원</p>
+	   </div>
+	   <nav class="top_nav">
+		   <div class="container">
+			   <ol>
+				   <li class="home"><a href="../main.html"><img src="../../lib/images/sub_nav_hom_icon.png" alt="홈으로"></a></li>
+				   <li><a href="#">서민금융상품</a></li>
+				   <li class="curnet"><a href="#">채무조정 제도</a></li>
+			   </ol>
+		   </div>
+	   </nav>
+	   <div class="container">
+		   <div class="left_menu">
+			   <h2>서민금융상품</h2>
+			   <ul>
+				   <li>
+				   	<a href="finance_goods_1.html">맞춤조회</a>
+				   </li>
+				   
+				   <li>
+				   	<a class="sub_1dep" href="finance_goods_2.html">창업·운영자금</a>
+				   	<ul class="sub_2dep">
+					   	<li><a href="#">미소금융 창업·운영자금</a></li>
+					   	<li><a href="#">전통시장상인대출</a></li>
+					   	<li><a href="#">햇살론 창업운영자금</a></li>
+				   	</ul>
+				   </li>
+				   
+				   <li>
+				   	<a href="finance_goods_3.html">생계·주거자금</a>
+				   	<ul class="sub_2dep">
+					   	<li><a href="#">생계자금</a></li>
+					   	<li><a href="#">주거자금</a></li>
+				   	</ul>
+				   </li>
+				   
+				   <li>
+				   	<a href="finance_goods_4.html">저금리전환</a>
+				   	<ul class="sub_2dep">
+					   	<li><a href="#">바꿔드림 론</a></li>
+					   	<li><a href="#">햇살론(전환)</a></li>
+				   	</ul>
+				   </li>
+				   
+				   <li class="on">
+				   	<a href="#">채무조정 제도</a>
+				   </li>
+				   
+				   <li>
+				   	<a class="sub_1dep" href="finance_goods_6.html">기타</a>
+				   	<ul class="sub_2dep">
+					   	<li><a href="#">민간복지</a></li>
+					   	<li><a href="finance_goods_6_2.html">적금</a></li>
+					   	<li><a href="finance_goods_6_3.html">소액보험</a></li>
+				   	</ul>
+				   </li>
+			   </ul>
+			   <img class="left_menu_img" src="../../lib/images/left_menu_img.png" alt="서민금융진흥원의 전화번호는 국번없이 1399 입니다.">
+		   </div>
+		   <div class="sub_contain" id="skip_main">
+			   <div class="sub_top">
+				    <h3>채무조정 제도</h3>
+				    <ul class="top_button_wrap">
+					    <li>
+					    	<a href="javascript:window.print()"><img src="../../lib/images/print_icon.png" alt="프린트버튼"></a>
+					    </li>
+					    <li><a href="#"><img src="../../lib/images/face_icon.png" alt="페이스북으로 공유하기"></a></li>
+					    <li><a href="#"><img src="../../lib/images/blog_icon.png" alt="블로그에 공유하기"></a></li>
+				    </ul>
+					<a class="sub_lnb_btn" href="#">서브메뉴버튼</a>
+			   </div>
+			   <div class="sub_cont list_cont">
+				    <h4 class="hide_text">채무조정 제도</h4>
+				    <span>
+			    		신용회복위원회, 법원, 한국자산관리공사(국민행복기금)는 과중한 채무에 있는 분들이 경제적으로 재기할 수 있도록 각각의 채무조정 프로그램을 운영 중
+					</span>
+					
+					
+					
+					<div class="cont_top mb_20 mt_20">
+				  		<p class="big_blue_dot blue_font f_none">지원대상</p>
+						 <span class="font_1_2">각 기관에서 요구하는 채무조정 지원대상에 해당하는 분</span>
+				  	</div>
+					
+					
+					<div class="cont_top">
+						<p class="big_blue_dot blue_font mt_20">지원내용</p>
+						<table class="blue_table">
+							<caption>채무조정제도 지원대상표를 구분에 따른 신용회복위원회,법원,한국자산관리공사의 지원에 대해 알려주는 표입니다.</caption>
+							<colgroup>
+								<col style="width:15%">
+								<col style="width:19%">
+								<col style="width:16%">
+								<col style="width:16%">
+								<col style="width:17%">
+								<col>
+							</colgroup>
+							<thead>
+								<tr>
+									<th scope="col">구분</th>
+									<th scope="col" colspan="2">신용회복위원회</th>
+									<th scope="col" colspan="2">법원</th>
+									<th scope="col">한국자산관리공사</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">지원내용</th>
+									<td>프리워크아웃</td>
+									<td>개인워크아웃</td>
+									<td>개인회생</td>
+									<td>개인파산</td>
+									<td>국민행복기금 채무조정</td>
+								</tr>
+								<tr>
+									<th scope="row">조정대상</th>
+									<td colspan="2">「신용회복지원협약」을 체결한 금융회사 채권</td>
+									<td colspan="2">제한 없음</td>
+									<td>금융회사 등에서 인수한 채권</td>
+								</tr>
+								<tr>
+									<th scope="row">지원대상</th>
+									<td>1개월 초과～3개월미만 연체채권 보유</td>
+									<td>3개월 이상연체채권 보유</td>
+									<td>과다채무 "급여소득자" 또는"영업소득자</td>
+									<td>파산원인 해당자</td>
+									<td>매입 보유채권</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="ad_call_center">
+					   <span class="title">상담문의</span>
+					   <span class="sub_title">서민금융통합콜센터</span>
+					   <img src="../../lib/images/ad_call_center.png" alt="1397">
+					   <span class="sub_title">또는 해당 사업수행기관</span>
+					</div>
+				    <div class="top_tab_cont_wrap">
+					    <div class="top_tab_cont">
+							
+							
+							<div class="no_link_tab">
+							    <ul>
+								    <li class="w_20p f_left on"><button>프리워크아웃</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+								    <li class="w_20p f_left"><button>개인워크아웃</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+								    <li class="w_20p f_left"><button>개인회생</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+								    <li class="w_20p f_left"><button>개인파산</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+								    <li class="w_20p f_left"><button>국민행복기금</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+							    </ul>
+							    <div class="no_link_tab_cont">
+								   <div class="no_tab_cont on">
+									   <div class="no_tab_cont_top financ_5">
+										   <h5>프리워크아웃</h5>
+										   <span>
+											   단기 연체중인 분들이 금융채무불이행자로 전락하지 않도록 약정금리 인하, 분할상환, 변제기 유예 등 <br>
+											   채무조정을 지원하는 제도로 지원대상은 아래의 조건을 모두 충족하는 분
+										   </span>
+										   <ul class="mb_35">
+											   <li>
+											   - 2곳 이상의 채권금융회사에 채무가 있으며, 연체기간 30일 초과 90일 미만
+											   <span class="sub_small_font2 pl-none">
+											   		※ 신청기준일 현재 연체일수가 30일 이하인 경우 최근 1년 동안 반복된 연체 누적일수가 30일 이상이고, 연 소득이 4천만 원 이하인 경우 지원대상으로 인정
+											   </span>
+											   </li>
+										   </ul>
+										   <div>
+											   <p class="big_blue_dot">지원내용</p>
+											   <ul class="surport">
+												    <li class="gray_arrow_p">연체이자 전액 감면</li>
+													<li class="gray_arrow_p">상환기간 연장 및 이자율 인하</li>
+													<li class="gray_arrow_p">「신용회복지원협약」을 체결한 금융회사 채무를 조정 등</li>
+											   </ul>
+										   </div>
+									   </div>
+									   <div class="ad_call_center ad_call_center2">
+										   <span class="title">상담문의</span>
+										   <span class="sub_title">서민금융통합콜센터</span>
+										   <img src="../../lib/images/ad_call_center.png" alt="1397">
+										   <span class="web_title sub_title">신용회복위원회</span>
+										   <a href="http://www.ccrs.or.kr" target="_blank"><img class="two" src="../../lib/images/web_site.png" alt="www.ccrs.or.kr"></a>
+										</div>
+								   </div> 
+								   <div class="no_tab_cont">
+									   <div class="no_tab_cont_top financ_5">
+										   <h5>개인워크아웃</h5>
+										   <span style="margin-bottom:6px">
+											   과중한 채무로 장기 연체중인 분들에게 채무감면, 분할상환, 변제기 유예 등의 채무조정을 지원하고,<br>
+											   금융채무불이행정보 해제 및 안정적 채무상환을 지원하는 제도
+										   </span>
+										   <span>지원대상 아래의 조건을 모두 충족하는 분</span>
+										   <ul>
+											   <li>- 연체기간 90일 이상</li>
+											   <li>- 총 채무액 15억원(담보채무 10억원, 무담보채무 5억원) 이하 등</li>
+										   </ul>
+										   <div>
+											   <p class="big_blue_dot">지원내용</p>
+											   <ul>
+												    <li class="gray_arrow_p">이자, 연체이자는 전액 감면</li>
+													<li class="gray_arrow_p">최장 10년 이내에서 장기분할상환 지원</li>
+													<li class="gray_arrow_p">상각채권은 원금의 최대 60%까지 감면(사회소외계층은 최대 90%)</li>
+													<li class="gray_arrow_p">「신용회복지원협약」을 체결한 금융회사 채무를 조정 등</li>
+											   </ul>
+										   </div>
+									   </div>
+									   <div class="ad_call_center ad_call_center2">
+										   <span class="title">상담문의</span>
+										   <span class="sub_title">서민금융통합콜센터</span>
+										   <img src="../../lib/images/ad_call_center.png" alt="1397">
+										   <span class="web_title sub_title">신용회복위원회</span>
+										   <a href="http://www.ccrs.or.kr" target="_blank"><img class="two" src="../../lib/images/web_site.png" alt="www.ccrs.or.kr"></a>
+										</div>
+								   </div>
+								   
+								   <div class="no_tab_cont">
+										<div class="no_tab_cont_top financ_5">
+										   <h5>개인회생</h5>
+										   <span style="margin-bottom:6px">
+											   과중한 채무로 파탄에 직면하고 있고, 장래 계속적으로 또는 반복하여 수입을 얻을 가능성이 있는<br>
+											   경우에 3년 내지 5년간 일정한 금액을 변제하면 나머지 채무의 면제를 받을 수 있는 절차
+										   </span>
+										   <span>지원대상 아래의 조건을 모두 충족하는 분</span>
+										   <ul>
+											   <li>- 일정한 수입이 있는 "급여소득자"와 "영업소득자</li>
+											   <li>- 지급불능의 상태에 빠져있거나 지급불능의 상태가 발생할 염려가 있는 경우</li>
+											   <li>- 총 채무액 15억원(담보채무 10억원, 무담보채무 5억원) 이하</li>
+											   <li>- 변제기간5년이내 변제액이청산가치보다 클 것 등</li>
+										   </ul>
+										   <div>
+											   <p class="big_blue_dot">지원내용</p>
+											   <ul>
+												    <li class="gray_arrow_p">최장 5년간 상환 후 잔여 채무 면책</li>
+											   </ul>
+										   </div>
+									   </div>
+									   <div class="ad_call_center ad_call_center2">
+										   <span class="title">상담문의</span>
+										   <span class="sub_title">대한법률구조공단</span>
+										   <a href="http://resu.klac.or.kr" target="_blank"><img class="three" src="../../lib/images/cal_2.png" alt="웹주소 http://resu.klac.or.kr,전화번호 132">
+										</div>   					   
+								   </div>
+								   
+								   <div class="no_tab_cont">
+										<div class="no_tab_cont_top financ_5">
+										   <h5>개인파산</h5>
+										   <span style="margin-bottom:6px">
+											   성실하지만 불운하게도 과도한 채무를 지게 되어 채무를 상환할 수 없는 상태에 있는 분들에게 <br>
+											   재기·갱생할 수 있는 기회를 부여하는 제도
+										   </span>
+										   <span>지원대상 아래의 조건을 모두 충족하는 분</span>
+										   <ul>
+											   <li>- 일정한 수입이 있는 “급여소득자”와 “영업소득자”</li>
+											   <li>- 지급불능의 상태에 빠져있거나 지급불능의 상태가 발생할 염려가 있는 경우</li>
+											   <li>- 총 채무액 15억원(담보채무 10억원, 무담보채무 5억원) 이하</li>
+											   <li>- 변제기간 5 년이내 변제액이청산가치보다 클 것 등</li>
+										   </ul>
+										   <div>
+											   <p class="big_blue_dot">지원내용</p>
+											   <ul>
+												    <li class="gray_arrow">개인파산·면책을 받은 경우 파산절차에 의한 배당을 제외하고는 파산채권자에 대한 채무의 전부에 관하여<br>
+												    그 책임이 면제 등</li>
+											   </ul>
+										   </div>
+									   </div>
+									   <div class="ad_call_center ad_call_center2">
+										   <span class="title">상담문의</span>
+										   <span class="sub_title">대한법률구조공단</span>
+										   <a href="http://resu.klac.or.kr" target="_blank"><img class="three" src="../../lib/images/cal_2.png" alt="웹주소 http://resu.klac.or.kr,전화번호 132"></a>
+										</div>	   					   
+								   </div>
+								   
+								   <div class="no_tab_cont">
+									   <div class="no_tab_cont_top financ_5">
+										   <h5>국민행복기금</h5>
+										   <span style="margin-bottom:6px">
+											   금융소외자의 과도한 채무 부담을 줄여 경제적 회생의 기회를 제공하고 채무조정 등 자활프로그램을 통해<br> 
+											   정상적인 경제활동의 주체로 복귀할 수 있도록 지원 (2013.3.29 출범)
+										   </span>
+										   
+										   <div>
+											   <p class="big_blue_dot">지원대상</p>
+											   <ul>
+												    <li>
+												    	1) 국민행복기금이 협약가입 금융기관 등으로부터 매입한 연체채권의 채무자
+												    	<span style="line-height: 19px;">- 금융회사로부터 일괄인수한 채권 중 채무조정 미신청 채권에 대해서 채무조정 신청 가능</span>
+												    	<span class="sub_small_font2">※ 채무자의 신청을 받아 협약가입 금융기관으로부터 연체채권을 매입하는 개별신청은 2013년 10월말 종료</span>
+												    </li>
+												    <li>‘13.2월말 기준 6개월 이상 연체된 한국장학재단 학자금대출 채무 중 ‘14.9월말 국민행복기금으로 채권이 매각되어 동기금이 관리중인 채무를 보유한 자</li>
+												    <li>※ 1), 2)에 대한 대상여부는 서민금융통합콜센터(1397)로 문의하시기 바랍니다.</li>
+											   </ul>
+										   </div>
+										  
+										   <div>
+											   <p class="big_blue_dot">지원내용</p>
+											   <ul>
+												    <li>-신청자의 상환능력이 부족한 경우 채무자 연령, 연체기간, 소득 등을 고려하여 30~50%(특수채무자는 60~70%) 채무감면 및 최장 10년까지 분할상환 하도록 상환기간을 조정</li>
+											   </ul>
+										   </div>
+									   </div>
+									   <div class="ad_call_center ad_call_center2">
+										   <span class="title">상담문의</span>
+										   <span class="sub_title">서민금융통합콜센터</span>
+										   <img src="../../lib/images/ad_call_center.png" alt="1397">
+										   <span class="web_title sub_title">국민행복기금</span>
+										   <a href="http://www.happyfund.or.kr" target="_blank"><img class="two" src="../../lib/images/happy_site.png" alt="www.happyfund.or.kr"></a>
+										</div>
+								   </div>
+							    </div>
+						  	</div>     
+					    </div>
+				    </div>	   
+			   </div>
+		   </div>
+		   <div class="top_btn col-lg-block">
+			   <button>맨위로 이동하기</button>
+		   </div>
+	   </div>
+  	</section>
+  	<!--메인 영역 끝-->
+
+  	<!--하단 영역-->
+  	<footer>
+	  	<div class="container">
+		  	<!--슬라이드부분-->
+		  	<div id="footer_slide" class="carousel slide footer_slid visible-lg-block visible-md-block visible-sm-block" data-ride="carousel2">	
+			  <div class="carousel-inner" role="listbox">
+				<div  class="item active">  
+				    <ul>
+					  <li><a href="http://www.fsc.go.kr" target="_blank"><img src="../../lib/images/footer_logo1.png" alt="금융위원회"></a></li>
+					  <li><a href="http://www.fss.or.kr" target="_blank"><img src="../../lib/images/footer_logo2.png" alt="금융감독원"></a></li>  
+					  <li><a href="http://www.ccrs.or.kr" target="_blank"><img src="../../lib/images/footer_logo3.png" alt="신용회복위원회"></a></li>
+					  <li><a href="http://www.kamco.or.kr" target="_blank"><img src="../../lib/images/footer_logo4.png" alt="캠코"></a></li> 
+					  <li><a href="http://www.kfb.or.kr" target="_blank"><img src="../../lib/images/footer_logo5.png" alt="전국은행연합회"></a></li>
+					  
+				    </ul>
+				</div>
+				<div  class="item">
+				    <ul>
+					  
+					  <li><a href="http://www.klia.or.kr" target="_blank"><img src="../../lib/images/footer_logo6.png" alt="생명보험협회"></a></li>
+					  <li><a href="http://www.knia.or.kr" target="_blank"><img src="../../lib/images/footer_logo7.png" alt="손해보험협회"></a></li>  
+					  <li><a href="http://www.minwon.go.kr" target="_blank"><img src="../../lib/images/footer_logo8.png" alt="민원24"></a></li>
+				    </ul>
+				</div>
+			  </div>
+			
+			  <!--버튼-->
+			  <div class="footer_btn">
+				  <a class="left carousel-control" href="#footer_slide" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+				    <span class="sr-only">이전</span>
+				  </a>
+				  <button class="play carousel-control" role="button">
+			        <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+			        <span class="sr-only">정지버튼</span>
+				  </button> 
+				  <a class="right carousel-control" href="#footer_slide" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+				    <span class="sr-only">다음</span>
+				  </a>
+			  </div>
+			</div>
+	  	</div>
+	  	<div class="footer_link">
+		  	<div class="container">
+				<ul class="linkinfo visible-lg-block visible-md-block visible-sm-block">
+					<li><a href="../operation_guide/access_terms.html">이용약관</a></li>
+					<li><a href="../operation_guide/individual_information.html">개인정보처리방침</a></li>
+					<li><a href="../operation_guide/customer_charter.html">고객헌장</a></li>
+					<li><a href="http://as82.kr/smcb/" target="_blank">원격지원</a></li>
+				</ul>
+				<ul class="linkinfo mobile_linkinfo visible-xs-block">
+					<li><a href="../operation_guide/access_terms.html">이용약관</a></li>
+					<li><a href="../operation_guide/individual_information.html">개인정보처리방침</a></li>
+					<li><a href="">PC버전보기</a></li>
+					<li><a href="http://as82.kr/smcb/" target="_blank">원격지원</a></li>
+				</ul>
+				<div class="social visible-lg-block visible-md-block visible-sm-block">
+					<a href="https://www.facebook.com/smilemicrocreditbank" target="_blank"><img src="../../lib/images/f_icon.png" alt="서민금융진흥원 페이스북바로가기"></a>
+					<a href="http://blog.naver.com/misofinance" target="_blank"><img src="../../lib/images/b_icon.png" alt="서민금융진흥원 블로그바로가기"></a>
+				</div>
+			</div>
+	  	</div>
+	  	<div class="addres_Info">
+		  	<div class="container">
+			  	<img class="visible-lg-block visible-md-block visible-sm-block" src="../../lib/images/footer_logo.png" alt="서민금융진흥원">
+			  	<address>
+			  		<span class="sc">고객센터 &colon; 1600-3500</span> <span class="ad">&lpar;우&rpar;03157 서울시 종로구 종로5길 13, 삼공빌딩 7층</span> 
+			  		<span>Copyright Since 2008-2016 SMILE MICROCREDIT BANK.  All  Rights Reserved.</span>
+			  	</address>
+			  	<form class="footer_drop">
+				  	<fieldset>
+		                <select name="사이트맵" class="form-control dropdown visible-lg-block visible-md-block visible-sm-block">
+		                    <option value>홈페이지 바로가기</option>
+		                    <option value="http://www.fsc.go.kr" label="금융위원회">금융위원회</option>
+							<option value="http://www.fss.or.kr" label="금융감독원">금융감독원</option> 
+							<option value="http://www.ccrs.or.kr" label="신용회복위원회">신용회복위원회</option>  
+							<option value="http://www.kamco.or.kr" label="캠코">캠코</option>   
+							<option value="http://www.kfb.or.kr" label="전국은행연합회">전국은행연합회</option>   
+							<option value="http://www.klia.or.kr" label="생명보험협회">생명보험협회 </option>  
+							<option value="http://www.knia.or.kr" label="손해보험협회">손해보험협회 </option>   
+							<option value="http://www.minwon.go.kr" label="민원24">민원24 </option> 
+		                </select>
+		                <input name="이동" type="submit" value="이동" class="btn" />
+				  	</fieldset>
+            	</form>
+            	<div class="social visible-xs-block">
+					<a href="https://www.facebook.com/smilemicrocreditbank" target="_blank"><img src="../../lib/images/f_icon.png" alt="서민금융진흥원 페이스북바로가기"></a>
+					<a href="http://blog.naver.com/misofinance" target="_blank"><img src="../../lib/images/b_icon.png" alt="서민금융진흥원 블로그바로가기"></a>
+				</div>
+		  	</div>
+	  	</div>	  	
+  	</footer>
+  	<!--하단 영역 끝-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../../boot/dist/js/bootstrap.js"></script>
+    <script src="../../lib/js/common.js"></script>
+    <script src="../../lib/js/sub.js"></script>
+    <script src="../../lib/js/sub_notabopen.js"></script>
+  </body>
+</html>

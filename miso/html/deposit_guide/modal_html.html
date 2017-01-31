@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>서민금융|휴면예금안내|출연휴면예금 조회</title>
+    <!-- css-->
+    <link href="../../boot/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../../lib/css/common.css" rel="stylesheet">
+    <link href="../../lib/css/sub_cont.css" rel="stylesheet">
+        <link href="../../lib/css/deposit_guide.css" rel="stylesheet">
+    <link href="../../lib/css/tab.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	
+  	
+	<!--모달버튼-->
+	<button type="button" class="btn btn pink_btn mb_35" data-toggle="modal" data-target="#deposit_modal">
+	휴면예금 조회하기
+	</button>
+					
+  	<!--메인 영역 끝-->  	
+	<!-- 모달 1-->
+
+	<div class="modal fade" id="deposit_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="closebtn" aria-hidden="true">&times;</span></button>
+	        <p class="modal-title" id="myModalLabel">출연예금조회</p>
+	      </div>
+	      <div class="modal-body">
+	        <ul>
+		        <li class="on"><button>개인 <img src="../../lib/images/modal_tab.png" alt="현재위치입니다."></button></li>
+		        <li><button>법인</button></li>
+	        </ul>
+	        <div class="modal_cont_wrap">
+		        <div class="modal_cont on">
+			       <form>
+				       <fieldset>
+					       <div>
+						       <div class="name">
+							       <label for="name1">이름</label>
+							       <input id="name1" type="text" class="form-control">
+						       </div>
+						       <div class="resident_num1">
+							       <label for="resident_num1">주민번호</label>
+							       <input id="resident_num1" type="text" class="form-control">
+							       <span>&#45;</span>
+								   <input type="text" class="form-control">
+						       </div>
+					       </div>
+					       
+					       <button class="modal1_btn" data-toggle="modal" data-target="#deposit_modal2" type="button">공인인증서 조회</button> 
+				       </fieldset>
+			       </form> 
+		        </div>
+		         <div class="modal_cont">
+			       <form>
+				       <fieldset>
+					       <div>
+						       <div class="name">
+							       <label for="name2">법인명</label>
+							       <input id="name2" type="text" class="form-control">
+						       </div>
+						       <div class="resident_num1">
+							       <label for="resident_num2">사업자번호</label>
+							       <input id="resident_num2" type="text" class="form-control">
+							       <span>&#45;</span>
+								   <input type="text" class="form-control">
+						       </div>
+					       </div>
+					       <button class="modal1_btn" data-toggle="modal" data-target="#deposit_modal2" type="button">공인인증서 조회</button>
+				       </fieldset>
+			       </form> 
+		        </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	
+	<!--모달2-->
+
+	<div class="modal fade" id="deposit_modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	     <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="closebtn" aria-hidden="true">&times;</span></button>
+	        <p class="modal-title" id="myModalLabel2">출연휴면예금조회 결과</p>
+	      </div>
+	      <div class="modal-body">
+		  	<div class="topresult">
+		  		<p><span>김미소 님 (123456- *******)의 조회 </span>결과입니다.</p>
+		  		<span>자료기준일 : 2016년 07월</span>
+		  		<table class="mb_20 mt_20">
+			  		<caption>고객님의 은행예금,생명보험,손해보험,상호저축은행에 대한 조회 건수 결과입니다.</caption>
+			  		<colgroup>
+			  			<col style="width:25%">
+			  			<col style="width:25%">
+			  			<col style="width:25%">
+			  			<col style="width:25%">
+			  		</colgroup>
+			  		<thead>
+				  		<th scope="col">은행예금</th>
+				  		<th scope="col">생명보험</th>
+				  		<th scope="col">손해보험</th>
+				  		<th scope="col">상호저축은행</th>
+			  		</thead>
+			  		<tbody>
+				  		<td>1건</td>
+				  		<td>1건</td>
+				  		<td>1건</td>
+				  		<td>1건</td>
+			  		</tbody>
+		  		</table>
+		  	</div>
+		  	<div class="result">
+			  	<p class="big_blue_dot">상세내역</p>
+			  	<table class="mb_20 mt_20">
+			  		<caption>고객님의 조회결과에 대한 금융기관명,예금구분,계좌번호,금액,소멸시효완성,상태로 정리된 상세표입니다.</caption>
+			  		<colgroup>
+			  			<col style="width:16%">
+			  			<col style="width:16%">
+			  			<col style="width:16%">
+			  			<col style="width:16%">
+			  			<col style="width:16%">
+			  			<col style="width:16%">
+			  		</colgroup>
+			  		<thead>
+				  		<th scope="col">금융기관명</th>
+				  		<th scope="col">예금구분</th>
+				  		<th scope="col">계좌번호</th>
+				  		<th scope="col">금액</th>
+				  		<th scope="col">소멸시효완성</th>
+				  		<th scope="col">상태</th>
+			  		</thead>
+			  		<tbody>
+				  		<td>1한국 씨티은행</td>
+				  		<td>은행예금</td>
+				  		<td>123456789</td>
+				  		<td>2,300</td>
+				  		<td>2009-12-31</td>
+				  		<td>출연</td>
+			  		</tbody>
+		  		</table>
+		  	</div>
+		  	<div class="btn_wrap">
+		  		<button class="modal2_btn" data-toggle="modal" data-target="#deposit_modal2" type="button">다시조회하기</button>
+		  	</div>
+		  	<div class="modal_footer">
+			  	금액은 '세전금액' 기준 입니다. 원권리자에게 '실제 지급금액은 세후금액'으로 다소 차이가 있을 수 있습니다.
+			  	지급신청은 해당 금융기관에서 하실 수 있습니다. 
+		  	</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+ 
+  	<!--하단 영역 끝-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../../boot/dist/js/bootstrap.js"></script>
+    <script src="../../lib/js/common.js"></script>
+    <script src="../../lib/js/sub.js"></script>
+  </body>
+</html>

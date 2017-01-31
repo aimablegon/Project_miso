@@ -1,0 +1,35 @@
+/*정부3.0*/
+
+/*정부 3.0>정보공개안내*/
+.gov1{text-align:center}
+.gov1 h4{font-size:1.929em;font-weight:bold;color:#292929;}
+.gov1>p{font-size:1.143em;color:#fff;background:#7db0e0;display:block;padding:10px 16px;width:190px;margin:0 auto;letter-spacing:-1px;margin-bottom:10px}
+.gov1>span{display:block;color:#464646;line-height:25px}
+.gov1>div{margin-top:60px}
+.gov1>div>div{font-size:1.643em;color:#afafaf;margin-bottom:15px}
+.gov1>div>div>span.yellow{color:#ebbe00}
+.gov1>div>div>span.blue{color:#0d6ac1}
+.gov1>div>div>span.green{color:#69b633}
+.gov1>div>div>span.red{color:#dc3451}
+.gov1>div>span{display:block;color:#464646;}
+.gov1>div>img{margin-top:60px}
+
+/*>사전정보공개목록*/
+.gov>div{margin-bottom:30px}
+.gov>div>p{padding-left:10px;background:url("../images/big_blue_dot.png") no-repeat left 50%;font-size:1.357em;color:#0d6ac1;font-weight:bold;margin-bottom:5px}
+.gov>div>span{color:#464646;font-size:1.071em;padding-left:10px;display:block}
+.gov>div>.blue_box{border:1px solid #d8ecff;background:#edf6ff;padding:15px;margin-top:10px;font-size:0.929em;color:#666666}
+.gov>div>.depth{padding-left:10px;}
+.gov>div>.depth>p{font-size:1.143em;color:#002b7f;margin-top:25px;margin-bottom:7px}
+.gov>div>.depth>span{display:block;font-size:1em;color:#464646}
+.gov>div>.depth>ul{margin-top:15px;padding-left:0px;}
+.gov>div>.depth>ul li{line-height:25px;padding-left:10px;background:url("../images/little_blue_dot.png") no-repeat 0px 11px;}
+
+@media (max-width: 749px){
+	.gov1>div>img{width:60%}
+}
+
+
+@media (max-width:555px){
+	.gov1>div>img{width:91%}
+}

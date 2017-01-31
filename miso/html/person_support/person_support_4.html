@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>서민금융|서민생활안내|금융교육</title>
+    <!-- css-->
+    <link href="../../boot/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../../lib/css/common.css" rel="stylesheet">
+    <link href="../../lib/css/sub_cont.css" rel="stylesheet">
+    <link href="../../lib/css/person.css" rel="stylesheet">
+    <link href="../../lib/css/tab.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<!--상단메뉴영역-->
+	<header class="navbar-fixed-top">
+		<div class="skip_nav">
+			<a href="#skip_main">본문 바로가기</a>
+			<a href="#main_nav">주메뉴 바로가기</a>
+		</div>
+		<div class="top_head">
+			<div class="container">
+			  	<h1><a href="../main.html"><img src="../../lib/images/logo.png" alt="서민금융진흥원"></a></h1>
+			  	<div class="top_head_wrap">
+			  		<a class="add_bookmark" href="#">즐겨찾기등록</a>
+			  		<a class="all_menue" href="#main_nav">전체메뉴</a>
+			  		<!-- Single button -->
+					<div class="btn-group top_head_bt_group">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+					    한국어 <span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu" role="menu">
+					    <li><a href="#">한국어</a></li>
+					    <li><a href="#">영어</a></li>
+					    <li><a href="#">중국어</a></li>
+					  </ul>
+					</div>
+			  	</div>
+		  	</div>
+		</div>
+		<div class="gnb_wrap pc_nav">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">메뉴버튼</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul id="main_nav" class="nav navbar-nav dep_1">
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">서민금융상품</a>
+			        	<div>
+				        	<ul class="dep_2">
+						        <li><a href="../finance_goods/finance_goods_1.html">맞춤조회</a></li>
+					        	<li><a href="../finance_goods/finance_goods_2.html">창업·운영자금</a></li>
+					        	<li><a href="../finance_goods/finance_goods_3.html">생계·주거자금</a></li>
+					        	<li><a href="../finance_goods/finance_goods_4.html">저금리 전환</a></li>
+					        	<li><a href="../finance_goods/finance_goods_5.html">채무조정 제도</a></li>
+					        	<li><a href="../finance_goods/finance_goods_6.html">기타</a></li>
+			        		</ul>
+			        	</div>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">서민생활안내</a>
+			        	<div>
+				        	<ul class="dep_2">
+					        	<li><a href="person_support_1.html">신용·재무진단</a></li>
+					        	<li><a href="person_support_2.html">일자리</a></li>
+					        	<li><a href="person_support_3.html">노후설계</a></li>
+					        	<li><a href="person_support_4.html">금융교육</a></li>
+					        	<li><a href="person_support_5.html">불법사금융</a></li>
+					        	<li><a href="person_support_6.html">자활·재기지원</a></li>
+				        	</ul>
+			        	</div>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">휴면예금안내</a>
+			        	<div>
+				        	<ul class="dep_2">
+					        	<li><a href="../deposit_guide/deposit_guide_1.html">휴면예금 안내</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_2.html">출연휴면예금 조회</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_3.html">출연휴면예금 상속인조회</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_4.html">출연금융기관 안내</a></li>
+					        	<li><a href="../deposit_guide/deposit_guide_5.html">기부하기</a></li>
+				        	</ul>
+			        	</div>
+			        </li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">고객센터</a>
+						<div>
+							<ul class="dep_2">
+					        	<li><a href="../cliente_center/cliente_center_1.html">상담센터 찾기</a></li>
+					        	<li><a href="../cliente_center/cliente_center_2.html">자주 하는 질문</a></li>
+					        	<li><a href="../cliente_center/cliente_center_3.html">묻고 답하기</a></li>
+					        	<li><a href="../cliente_center/cliente_center_4.html">신문고</a></li>
+			        		</ul>
+						</div>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">진흥원소개</a>
+						<div>
+							<ul class="dep_2">
+					        	<li><a href="../introduce/introduce_1.html">비전&#32;및&#32;경영목표</a></li>
+					        	<li><a href="../introduce/introduce_2.html">설립·연혁</a></li>
+					        	<li><a href="../introduce/introduce_3.html">원장&#32;소개</a></li>
+					        	<li><a href="../introduce/introduce_4.html">조직</a></li>
+					        	<li><a href="../introduce/introduce_5.html">뉴스·보도자료</a></li>
+					        	<li><a href="../introduce/introduce_6.html">공시·자료</a></li>
+					        	<li><a href="../introduce/introduce_7.html">공지사항</a></li>
+					        	<li><a href="../introduce/introduce_8.html">채용공고</a></li>
+					        	<li><a href="../introduce/introduce_9.html">찾아오시는&#32;길</a></li>
+				        	</ul>
+						</div>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">정부3.0</a>
+						<div>
+							<ul class="dep_2">
+					        	<li><a href="../gov/gov_1.html">정보공개 안내</a></li>
+					        	<li><a href="../gov/gov_2.html">사전정보 공개목록</a></li>
+					        	<li><a href="../gov/gov_3.html">정보공개창구</a></li>
+					        	<li><a href="../gov/gov_5.html">사전정보 공표</a></li>
+					        	<li><a href="../gov/gov_7.html">공공데이터 개방</a></li>
+				        	</ul>
+						</div>
+					</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			    <button class="gnb_c_Btn" >메뉴닫기</button>
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<div class="dep2_bg"></div>
+		</div>
+
+		<div id="mobile_nav" class="gnb_wrap mobile_nav">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+			        <span class="sr-only">메뉴버튼</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			      <ul class="nav navbar-nav dep_1">
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">서민금융상품</a>
+			        	<ul class="dep_2">
+				        	<li><a href="../finance_goods/finance_goods_1.html">맞춤조회</a></li>
+				        	<li><a href="../finance_goods/finance_goods_2.html">창업·운영자금</a></li>
+				        	<li><a href="../finance_goods/finance_goods_3.html">생계·주거자금</a></li>
+				        	<li><a href="../finance_goods/finance_goods_4.html">저금리&#32;전환</a></li>
+				        	<li><a href="../finance_goods/finance_goods_5.html">채무조정 제도</a></li>
+				        	<li><a href="../finance_goods/finance_goods_6.html">기타</a></li>
+			        	</ul>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">서민생활안내</a>
+			        	<ul class="dep_2">
+				        	<li><a href="person_support_1.html">신용·재무진단</a></li>
+				        	<li><a href="person_support_2.html">일자리</a></li>
+				        	<li><a href="person_support_3.html">노후설계</a></li>
+				        	<li><a href="person_support_4.html">금융교육</a></li>
+				        	<li><a href="person_support_5.html">불법사금융</a></li>
+				        	<li><a href="person_support_6.html">자활·재기지원</a></li>
+			        	</ul>
+			        </li>
+			        <li class="col-lg-2 col-md-2 col-sm-2">
+			        	<a href="#">휴면예금안내</a>
+			        	<ul class="dep_2">
+				        	<li><a href="../deposit_guide/deposit_guide_1.html">휴면예금&#32;안내</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_2.html">출연휴면예금&#32;조회</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_3.html">출연휴면예금 상속인조회</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_4.html">출연금융기관&#32;안내</a></li>
+				        	<li><a href="../deposit_guide/deposit_guide_5.html">기부하기</a></li>
+			        	</ul>
+			        </li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">고객센터</a>
+						<ul class="dep_2">
+				        	<li><a href="../cliente_center/cliente_center_1.html">상담센터&#32;찾기</a></li>
+				        	<li><a href="../cliente_center/cliente_center_2.html">자주&#32;하는&#32;질문</a></li>
+				        	<li><a href="../cliente_center/cliente_center_3.html">묻고&#32;답하기</a></li>
+				        	<li><a href="../cliente_center/cliente_center_4.html">신문고</a></li>
+			        	</ul>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">진흥원소개</a>
+						<ul class="dep_2">
+				        	<li><a href="../introduce/introduce_1.html">비전&#32;및&#32;경영목표</a></li>
+				        	<li><a href="../introduce/introduce_2.html">설립·연혁</a></li>
+				        	<li><a href="../introduce/introduce_3.html">원장&#32;소개</a></li>
+				        	<li><a href="../introduce/introduce_4.html">조직</a></li>
+				        	<li><a href="../introduce/introduce_5.html">뉴스·보도자료</a></li>
+				        	<li><a href="../introduce/introduce_6.html">공시·자료</a></li>
+				        	<li><a href="../introduce/introduce_7.html">공지사항</a></li>
+				        	<li><a href="../introduce/introduce_8.html">채용공고</a></li>
+				        	<li><a href="../introduce/introduce_9.html">찾아오시는&#32;길</a></li>
+			        	</ul>
+					</li>
+					<li class="col-lg-2 col-md-2 col-sm-2">
+						<a href="#">정부3.0</a>
+						<ul class="dep_2">
+				        	<li><a href="../gov/gov_1.html">정보공개&#32;안내</a></li>
+				        	<li><a href="../gov/gov_2.html">사전정보&#32;공개목록</a></li>
+				        	<li><a href="../gov/gov_3.html">정보공개창구</a></li>
+				        	<li><a href="../gov/gov_5.html">사전정보 공표</a></li>
+				        	<li><a href="../gov/gov_7.html">공공데이터&#32;개방</a></li>
+			        	</ul>
+					</li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+  	</header>
+  	<!--메뉴 영역 끝-->
+  	<!--메인 영역-->
+  	<section id="main_body">
+	   <div id="main_cont" class="sub_top_img">
+		   <h2>서민금융상품</h2>
+		   <p>제도 금융기관 이용이 어려운 분들에게 무담보·무보증으로 지원</p>
+	   </div>
+	   <nav class="top_nav">
+		   <div class="container">
+			   <ol class="pc_top_nav">
+				   <li class="home"><a href="../main.html"><img src="../../lib/images/sub_nav_hom_icon.png" alt="홈으로"></a></li>
+				   <li><a href="#">서민생활안내</a></li>
+				   <li class="curnet"><a href="#">금융교육</a></li>
+			   </ol>
+			   <ol class="mobile_top_nav">
+				   <li class="home"><a href="../main.html"><img src="../../lib/images/sub_nav_hom_icon.png" alt="홈으로"></a></li>
+				   <li><a href="#">서민생활안내</a></li>
+				   <li class="curnet">
+					   <div class="dropdown">
+						  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    금융교육
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+							<li class="on"><a href="#">금융교육</a></li>
+						   	<li><a href="http://www.fss.or.kr/fss/kr/info/financial/financedic.jsp" target="_blank">금융용어</a></li>
+						  </ul>
+						</div>
+				   </li>
+			   </ol>
+		   </div>
+	   </nav>
+	   <div class="container">
+		   <div class="left_menu">
+			   <h2>서민생활안내</h2>
+			   <ul>
+				   <li>
+					   	<a href="person_support_1.html">신용·재무진단</a>
+					   	<ul class="sub_2dep">
+						   	<li><a href="#">신용관리</a></li>
+						   	<li><a href="#">가계재무관리</a></li>
+						   	<li><a href="#">계산기</a></li>
+					   	</ul>
+				   </li>
+				   
+				   <li>
+					   	<a class="sub_1dep" href="person_support_2.html">일자리</a>
+					   	<ul class="sub_2dep">
+						   	<li><a href="#">일자리지원</a></li>
+						   	<li><a href="#">취업프로그램</a></li>
+					   	</ul>
+				   </li>
+				   
+				   <li>
+				   		<a href="person_support_3.html">노후설계</a>
+				   </li>
+				   
+				   <li  class="on">
+					   	<a href="#">금융교육</a>
+					   	<ul class="sub_2dep" style="display:block">
+						   	<li class="on"><a href="#">금융교육</a></li>
+						   	<li><a href="http://www.fss.or.kr/fss/kr/info/financial/financedic.jsp" target="_blank">금융용어</a></li>
+					   	</ul>
+				   </li>
+				   <li>
+				   		<a href="person_support_5.html">불법사금융 신고</a>
+				   </li>
+				   
+				    <li>
+					   	<a class="sub_1dep" href="person_support_6.html">자활·재기지원</a>
+					   	<ul class="sub_2dep">
+						   	<li><a href="person_support_6.html">컨설팅</a></li>
+						   	<li><a href="">봉사단</a></li>
+						   	<li><a href="#">기타</a></li>
+					   	</ul>
+				   </li>
+			   </ul>
+			   <img class="left_menu_img" src="../../lib/images/left_menu_img.png" alt="서민금융진흥원의 전화번호는 국번없이 1399 입니다.">
+		   </div>
+		   <div class="sub_contain" id="skip_main">
+			   <div class="sub_top">
+				    <h3>금융교육</h3>
+				    <ul class="top_button_wrap">
+					    <li>
+					    	<a href="javascript:window.print()"><img src="../../lib/images/print_icon.png" alt="프린트버튼"></a>
+					    </li>
+					    <li><a href="#"><img src="../../lib/images/face_icon.png" alt="페이스북으로 공유하기"></a></li>
+					    <li><a href="#"><img src="../../lib/images/blog_icon.png" alt="블로그에 공유하기"></a></li>
+				    </ul>
+					<a class="sub_lnb_btn" href="#">서브메뉴버튼</a>
+			   </div>
+			   <div class="sub_cont list_cont">
+				   <ul class="sub_tab">
+					   <li class="col-lg-6 col-xs-6 active"><a href="#">금융교육</a></li>
+					   <li class="col-lg-6 col-xs-6"><a href="http://www.fss.or.kr/fss/kr/info/financial/financedic.jsp" target="_blank">금융용어</a></li>
+				    </ul>
+				    <div class="top_tab_cont_wrap supprot_page">
+					    <div class="top_tab_cont">
+						    <div class="edu1_mo">
+							    <h4>금융교육</h4>
+						    </div>
+					    </div>
+					    <div class="top_cont edu1">
+						    <div class="list_box mb_35">
+							    <p class="big_blue_dot">교육목표</p>
+							    <ul>
+								    <li class="little_blue_dot_p">
+								    	서민들의 금융이해력을 높여 금융 소비자 및 생활인으로서 적절한 의사결정을 수행할 수
+										있도록 하고, 창업자 및 기존 자영업자에게 창업・경영에 대한 전문지식 습득을 지원함으로써 
+										성공적인 사업 운영 및 정착이 가능하도록 함
+								    </li>
+							    </ul>
+						    </div>
+						    <div class="list_box">
+							    <p class="big_blue_dot">교육 대상</p>
+							    <ul>
+								    <li class="little_blue_dot_p">
+								    	근로자, 대학생, 취약계층, 영세자영업자(창업자 포함), 구직자 중 제도권 금융기관 이용이 어려워 서민금융을 이용하시는 분 또는 서민금융 관련교육을 수강하고자 하는 일반인
+								    </li>
+							    </ul>
+						    </div>
+					    </div>
+					    <div class="list_box mb_35">
+						    <p class="big_blue_dot">교육내용</p>
+						    <table class="blue_table">
+							    <caption>구분에 따른 금융교육내용과 대상자에 대한 표입니다.</caption>
+							    <colgroup>
+							    	<col style="width:22%">
+							    	<col style="width:37%">
+							    	<col>
+							    </colgroup>
+							    <thead>
+								    <tr>
+									    <th scope="col">구분</th>
+									    <th scope="col">교육 내용</th>
+									    <th scope="col">교육 대상*</th>
+								    </tr>
+							    </thead>
+							    <tbody>
+								    <tr>
+									    <td>신용교육</td>
+									    <td class="text-left">신용관리, 연체위기 극복, 재무관리 등</td>
+									    <td>
+										    <span>・대학생・청년 햇살론 대출 예정자</span>
+											<span>・햇살론 근로자 보증 대출 예정자</span>
+									    </td>
+								    </tr>
+								    <tr>
+									    <td>창업・경영교육</td>
+									    <td class="text-left">실패하지 않는 창업, 소점포 마케팅 등</td>
+									    <td>・미소금융 창업, 시설・운영자금 대출 예정자</td>
+								    </tr>
+								    <tr>
+									    <td>취업교육</td>
+									    <td class="text-left">직무이해와 취업준비, 면접기술 등</td>
+									    <td>・구직자</td>
+								    </tr>
+							    </tbody>
+						    </table>
+						    <span class="sub_small_font2">* 일반인 이용가능</span>
+					    </div>
+					    <div class="list_box">
+						    <p class="big_blue_dot">교육 방법 </p>
+						    <ul>
+							    <li class="little_blue_dot_p">
+							    	오프라인 집체교육 및 온라인 교육
+							    </li>
+							    <li class="little_blue_dot_p">
+							    	자체 온라인 교육 시스템 구축 전까지는 유관기관 온라인 교육 활용
+							    </li>
+						    </ul>
+					    </div>
+					    <div class="ad_call_center mt_20">
+						   <span class="title">교육문의</span>
+						   <span class="sub_title">서민금융통합콜센터</span>
+						   <img src="../../lib/images/ad_call_center.png" alt="1397">
+						</div>						
+						<div class="no_link_tab mt_40">
+						    <ul>
+							    <li class="col-lg-4 col-sm-4 col-xs-4 on"><button>신용교육</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+							    <li class="col-lg-4 col-sm-4 col-xs-4"><button>창업·경영교육</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+							    <li class="col-lg-4 col-sm-4 col-xs-4"><button>취업교육</button><img src="../../lib/images/tab-on.png" alt="현재탭입니다."></li>
+						    </ul>
+						    <div class="no_link_tab_cont">
+							   <div class="on no_tab_cont">
+								   <div class="no_tab_cont_top">
+									   <h5>신용교육</h5>
+									   <div>
+										   <p class="big_blue_dot">교육 목표</p>
+										   <ul>
+											   <li class="gray_arrow">신용관리 및 재무관리에 대한 교육을 제공하여 올바른 신용생활을 영위할 수 있도록 도움</li>
+										   </ul>
+									   </div>
+									   <div>
+										   <p class="big_blue_dot">교육 대상</p>
+										   <ul>
+											   <li class="gray_arrow">대학생·청년 햇살론 및 햇살론 근로자보증 대출 예정자(필수 교육)</li>
+											   <li class="gray_arrow">서민금융 관련 교육을 수강하고자 하는 일반인(자유 수강)</li>
+										   </ul>
+									   </div>
+									   <div>
+										   <p class="big_blue_dot">교육 개요</p>
+										   <ul>
+												<li class="gray_arrow">신용교육원(<a href="http://www.educredit.or.kr" target="_blank">http://www.educredit.or.kr/</a>)을 통한 온라인 교육</li>
+										   </ul>
+										   <table class="tab_in_table">
+											   <caption>신용교육에대한 교육대상과 교육내용 표</caption>
+											   <colgroup>
+											   		<col>
+											   		<col>
+											   </colgroup>
+											   <thead>
+												   <tr>
+													   <th>교육대상</th>
+													   <th>교육내용</th>
+												   </tr>
+											   </thead>
+											   <tbody>
+												   <tr>
+													   <td>
+														   <span>대학생・청년 햇살론 대출 예정자</span>
+														   <span>※ 대학생 또는 일반인 과정 중 택일</span>
+														</td>
+													   <td>
+														   <ul>
+															   <li>
+															   		· 대학생 교육 과정 5과목 (총 2시간 21분)
+															   		<span>- 신용관리, 학자금관리, 소비생활 보호법 등</span>
+															   </li>
+															   <li>
+																	· 일반인 교육 과정 7과목 (총 3시간)
+																    <span>- 신용관리, 연체위기극복, 재무상태 점검 등</span>
+																</li>
+														   </ul>
+													   </td>
+												   </tr>
+												   <tr>
+													   <td>
+														   <span>햇살론 근로자 보증 대출 예정자</span>
+														</td>
+													   <td>
+														   <ul>
+															   <li>
+															   		· 일반인 교육 과정 7과목 (총 3시간)
+																    <span>- 신용관리, 연체위기극복, 재무상태 점검 등</span>
+															   </li>
+														   </ul>
+													   </td>
+												   </tr>
+											   </tbody>
+										   </table>
+										   <span class="sub_small_font2 dis_block" style="padding-right:100px;margin-top:7px">신용교육원 접속  >  회원가입  >   ‘온라인 교육’ 클릭  >   ‘대학생’ 또는 ‘일반인’ 교육 과정 중 선택  >  ‘미소금융 햇살론’ 클릭  >   학습 완료 후 수료증 출력</span>   
+									   </div>
+								   </div>
+								   <div class="ad_call_center ad_call_center2">
+									   <span class="title">교육문의</span>
+									   <span class="sub_title">서민금융통합콜센터</span>
+									   <img src="../../lib/images/ad_call_center.png" alt="1397">
+									</div>
+							   </div> 
+							   <div class="no_tab_cont">
+								   <div class="no_tab_cont_top">
+									   <h5>창업·경영교육</h5>
+									   <div>
+										   <p class="big_blue_dot">교육 목표</p>
+										   <span class="gray_arrow mb_20">창업 · 경영에 대한 전문적인 지식을 제공하여 창업자 및 기존 자영업자의 경제적 자립과 자활을 도움</span>
+									   </div>
+									   <div>
+										   <p class="big_blue_dot">교육 대상</p>
+										   <ul>
+											   <li class="gray_arrow">① 미소금융 창업자금 대출 예정자(필수 교육)</li>
+											   <li class="gray_arrow">② 미소금융 운영・시설자금 대출 예정자(필수 교육)</li>
+											   <li class="gray_arrow">③ 서민금융 관련 교육을 수강하고자 하는 일반인(자유 수강)</li>
+										   </ul>
+									   </div>
+									   <div>
+										   <p class="big_blue_dot">교육 개요</p>
+										   <div>
+											   <p>1) 창업 교육</p>
+											   <span>교육 방식</span>
+											   <ul>
+												 <li class="gray_arrow">수도권* : 오프라인(서민금융진흥원에서 집체교육 실시)
+						                         <span class="sub_small_font2"> * 서울특별시, 인천광역시, 고양시, 구리시, 군포시, 과천시, 광명시, 부천시, 성남시, 수원시, 시흥시, 안양시, 안산시, 의왕시, 의정부시, 하남시</span></li>
+												 <li class="gray_arrow">수도권 외 : 온라인(소상공인시장진흥공단 소상공인 지식배움터(<a href="http://edu.sbiz.or.kr" target="_blank">http://edu.sbiz.or.kr/</a>)</li>  
+											   </ul>
+											   <table class="mb_10">
+												   <caption>창업경영교육에의 교육대상과 교육내용에대한 표</caption>
+												   <colgroup>
+												   	<col>
+												   	<col>
+												   </colgroup>
+												   <thead>
+													   <tr>
+														   <th>교육 대상</th>
+														   <th>교육 내용 (총 18시간)</th>
+													   </tr>
+												   </thead>
+												   <tbody>
+													   <tr>
+														   <td>미소금융 창업자금 대출 예정자</td>
+														   <td>
+															   <span>· 실패하지 않는 창업</span>
+																<span>・고객을 움직이는 감성서비스</span>
+																<span>・소점포 마케팅</span>
+																<span>・절세전략</span>
+																<span>・온라인 홍보</span>
+																<span>・업종별 특성 및 창업환경 등</span>
+														   </td>
+													   </tr>
+												   </tbody>
+											   </table>
+											   
+											   <span>교육 신청</span>
+											   <ul>
+												   <li class="gray_arrow">
+												   	오프라인 교육신청(수도권)
+												   	<span class="sub_small_font2">・미소금융 창업자금 대출 예정자 : 각 미소금융 지점(지부) 대출담당자를 통해 신청</span>
+												   	<span class="sub_small_font2">・일반인 : 서민금융진흥원 교육센터(<a href="http://edu.smcb.or.kr" target="_blank">http://edu.smcb.or.kr/)</a> 접속  >  회원가입  >  교육일정 조회 및 신청</span>
+												   </li>
+												   <li class="gray_arrow">
+												   	온라인 교육신청(수도권 외)
+												   	<span>・소상공인 지식배움터(<a class="link" href="http://edu.sbiz.or.kr" target="_blank">http://edu.sbiz.or.kr</a>) 접속 → 회원가입 → E-러닝교육 → E-러닝교육신청</span>
+												   	<span class="sub_small_font2">※ 창업교육을 이수하신 분 중 신청인에 한에 비법전수업체 현장실습(6시간) 지원</span>
+												   </li>
+											   </ul>
+										   </div> 
+										   <div class="mt_40">
+											  <p>2) 경영 교육</p>
+											   <div>
+												   <ul>
+												  	 <li class="gray_arrow">소상공인시장진흥공단 소상공인 지식배움터(<a class="link" href="http://edu.sbiz.or.kr" target="_blank">http://edu.sbiz.or.kr</a>)를 통한 온라인 교육청</li>																		
+												  	</ul>
+												  	 <table>
+													  	 <caption>경영교육에의 교육대상과 교육내용에대한 표</caption>
+													  	 <colgroup>
+													  	 	<col>
+													  	 	<col>
+													  	 </colgroup>
+													  	 <thead>
+														  	 <tr>
+															  	 <th>교육 대상</th>
+															  	 <th>교육 내용 (총 4시간)</th>
+														  	 </tr>
+													  	 </thead>
+													  	 <tbody>
+														  	 <tr>
+															  	 <td>미소금융 운영・시설자금 대출 예정자</td>
+															  	 <td>
+																  	<span>· 종업원 고용과 관리전략</span>
+																	<span>・고객관리</span>
+																	<span>・업종분석 및 입지선정</span>
+																	<span>・친절서비스 등</span>
+															  	 </td>
+														  	 </tr>
+													  	 </tbody>
+												  	 </table>
+												  	<span class="mt_20" style="color:#002b7f">교육 신청</span>
+												  	<ul>
+													  	<li>소상공인 지식배움터 접속  >  회원가입  >  E-러닝교육  >  E-러닝교육신청</li>
+												  	</ul> 
+											   </div>
+										   </div> 
+									   </div>
+								   </div>
+								   <div class="ad_call_center ad_call_center2">
+									   <span class="title">교육문의</span>
+									   <span class="sub_title">서민금융통합콜센터</span>
+									   <img src="../../lib/images/ad_call_center.png" alt="1397">
+									</div>
+							   </div>
+							   
+							   <div class="no_tab_cont">
+								   <div class="no_tab_cont_top">
+									   <h5>취업교육</h5>
+									   <div>
+										   <p class="big_blue_dot">교육 목표</p>
+										   <ul>
+											   <li class="gray_arrow">면접요령, 이력서 작성 등 실질적인 취업관련 교육을 통해 구직을 희망하는 분의 성공적인 취업과 자활을 지원</li>
+										   </ul>
+									   </div>
+									   <div>
+										   <p class="big_blue_dot">교육 대상</p>
+										   <ul>
+												<li class="gray_arrow">취업의지가 강한 구직자</li>
+										   </ul>   
+									   </div>
+									   <div>
+										   <p class="big_blue_dot">교육 개요</p>
+										   <ul>
+												<li class="gray_arrow">각 지방자치단체 고용센터를 통한 오프라인 교육(온라인 신청)</li>
+										   </ul> 
+										   <table>
+											  	 <caption>취업교육의 교육대상과 교육내용에대한 표</caption>
+											  	 <colgroup>
+											  	 	<col>
+											  	 	<col>
+											  	 </colgroup>
+											  	 <thead>
+												  	 <tr>
+													  	 <th>교육 대상</th>
+													  	 <th>교육 내용 (총 9시간)</th>
+												  	 </tr>
+											  	 </thead>
+											  	 <tbody>
+												  	 <tr>
+													  	 <td><span>구직자</span></td>
+													  	 <td>
+														  	<span>・직무이해와 취업준비 (3시간)</span>
+															<span>・이력서 및 자기소개서 작성 (3시간)</span>
+															<span>・면접기술 습득 (3시간)</span>
+													  	 </td>
+												  	 </tr>
+											  	 </tbody>
+										  	 </table>
+										  	 <span class="mt_20">교육 신청</span> 
+										  	 <ul>
+											  	<li class="gray_arrow">아래 해당 지역 클릭  >   해당 지역의 고용센터 접속  >  일정 조회 및 신청</li>
+											  	<li class="pl10 sub_small_font2"> <a href="http://www.work.go.kr/seoul/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">서울</a></li>
+												<li class="pl10 sub_small_font2"><a href="http://www.work.go.kr/busan/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">부산</a></li>
+												<li class="pl10 sub_small_font2"><a href="http://www.work.go.kr/daegu/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">대구</a></li>
+												<li class="pl10 sub_small_font2"><a href="http://www.work.go.kr/incheon/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">인천</a></li>
+												<li class="pl10 sub_small_font2"><a href="http://www.work.go.kr/gwangju/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">광주</a></li>
+												<li class="pl10 sub_small_font2"><a href="http://www.work.go.kr/daejeon/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">대전</a></li>
+												<li class="pl10 sub_small_font2"> <a href="http://www.work.go.kr/ulsan/newsPlace/ctrEvent/empSptPgmList.do" target="_blank">울산</a></li>
+												<li class="pl10 sub_small_font2"> 경기 : 고양, 과천, 광명, 광주, 구리, 군포, 김포, 남양주, 동두천, 부천, 성남, 수원, 시흥, 안산, 안성, 안양, 양주,<span style="padding-left:34px"> 여주, 오산, 용인, 의왕, 의정부, 이천, 파주, 평택, 포천, 하남, 화성</span></li>
+												<li class="pl10 sub_small_font2">강원 : 강릉, 동해, 삼척, 속초, 원주, 춘천, 태백, 고성</li>
+												<li class="pl10 sub_small_font2">충청북도 : 제천, 청주, 충주</li>
+												<li class="pl10 sub_small_font2"> 충청남도 : 공주, 계룡, 논산, 보령, 서산, 아산, 천안, 당진</li>
+												<li class="pl10 sub_small_font2"> 전라북도 : 군산, 김제, 남원, 익산, 전주, 정읍</li>
+												<li class="pl10 sub_small_font2"> 전라남도 : 광양, 나주, 목포, 순천, 여수</li>
+												<li class="pl10 sub_small_font2"> 경상북도 : 경산, 경주, 구미, 김천, 문경, 상주, 안동, 영주, 영천, 포항</li>
+												<li class="pl10 sub_small_font2"> 경상남도 : 거제, 김해, 밀양, 사천, 양산, 진주, 창원, 통영</li>
+												<li class="pl10 sub_small_font2">※ 취업교육(9시간)을 이수하신 분 중 신청인에 한에 1:1취업코칭(8시간) 지원</li>
+										  	 </ul> 
+									   </div>
+								   </div>
+								   <div class="ad_call_center ad_call_center2">
+									   <span class="title">상담문의</span>
+									   <span class="sub_title">서민금융통합콜센터</span>
+									   <img src="../../lib/images/ad_call_center.png" alt="1397">
+									</div>
+									<div class="bottom_tab_box">
+										<div>
+											<p>※ 향후 교육 실시 계획</p>
+											<span class="dark_bluefont">재무(PB)·신용 컨설팅(8시간) (2017년 1월부터 시행 예정)</span>
+											<ul>
+												<li class="gray_arrow">   컨설팅 대상
+												  <span> - 대출 성실상환자</span>
+												  <span class="sub_small_font">* 미소금융 창업, 운영·시설자금, 대학생·청년 햇살론, 취업성공대출, 교육비지원대출, 장애인 자립자금 대출</span>
+												</li>
+												<li class="gray_arrow">
+												   컨설팅 내용
+												  <span>  - 재무(PB) · 신용컨설팅(8시간)</span>
+												</li>
+											</ul>
+											
+											<span class="dark_bluefont">1:1 취업코칭  (2017년 1월부터 시행 예정)</span>
+											<ul>
+												<li class="gray_arrow"> 컨설팅 대상
+												  <span> - 취업의지가 강하고 취업교육(9시간)을 이수하신 구직자</span>
+												</li>
+												<li class="gray_arrow">
+												   컨설팅 내용
+												  <span> - 취업에 성공하는 1:1 코칭(8시간)</span>
+												</li>
+											</ul>
+											<span class="dark_bluefont">금융교육 (자체 온라인 교육 시스템 구축 후 시행 예정)</span>
+											<ul>
+												<li class="gray_arrow"> 교육 대상
+												  <span> - 서민금융을 이용하는 근로자, 대학생, 취약계층, 영세자영업자(창업자 포함), 일반인 등</span>
+												</li>
+												<li class="gray_arrow">
+												   교육 내용
+												  <span>- 금융의 이해, 저축과 소비, 신용관리, 금융사기 예방, 부채관리, 재무설계 등</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+							   </div>	   
+						    </div>
+						</div>								
+				    </div>
+			   </div>
+		   </div>
+		   <div class="top_btn col-lg-block">
+			   <button>맨위로 이동하기</button>
+		   </div>
+	   </div>
+  	</section>
+  	<!--메인 영역 끝-->
+
+  	<!--하단 영역-->
+  	<footer>
+	  	<div class="container">
+		  	<!--슬라이드부분-->
+		  	<div id="footer_slide" class="carousel slide footer_slid visible-lg-block visible-md-block visible-sm-block" data-ride="carousel2">	
+			  <div class="carousel-inner" role="listbox">
+				<div  class="item active">  
+				    <ul>
+					  <li><a href="http://www.fsc.go.kr" target="_blank"><img src="../../lib/images/footer_logo1.png" alt="금융위원회"></a></li>
+					  <li><a href="http://www.fss.or.kr" target="_blank"><img src="../../lib/images/footer_logo2.png" alt="금융감독원"></a></li>  
+					  <li><a href="http://www.ccrs.or.kr" target="_blank"><img src="../../lib/images/footer_logo3.png" alt="신용회복위원회"></a></li>
+					  <li><a href="http://www.kamco.or.kr" target="_blank"><img src="../../lib/images/footer_logo4.png" alt="캠코"></a></li> 
+					  <li><a href="http://www.kfb.or.kr" target="_blank"><img src="../../lib/images/footer_logo5.png" alt="전국은행연합회"></a></li>
+					  
+				    </ul>
+				</div>
+				<div  class="item">
+				    <ul>
+					  
+					  <li><a href="http://www.klia.or.kr" target="_blank"><img src="../../lib/images/footer_logo6.png" alt="생명보험협회"></a></li>
+					  <li><a href="http://www.knia.or.kr" target="_blank"><img src="../../lib/images/footer_logo7.png" alt="손해보험협회"></a></li>  
+					  <li><a href="http://www.minwon.go.kr" target="_blank"><img src="../../lib/images/footer_logo8.png" alt="민원24"></a></li>
+				    </ul>
+				</div>
+			  </div>
+			
+			  <!--버튼-->
+			  <div class="footer_btn">
+				  <a class="left carousel-control" href="#footer_slide" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+				    <span class="sr-only">이전</span>
+				  </a>
+				  <button class="play carousel-control" role="button">
+			        <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+			        <span class="sr-only">정지버튼</span>
+				  </button> 
+				  <a class="right carousel-control" href="#footer_slide" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+				    <span class="sr-only">다음</span>
+				  </a>
+			  </div>
+			</div>
+	  	</div>
+	  	<div class="footer_link">
+		  	<div class="container">
+				<ul class="linkinfo visible-lg-block visible-md-block visible-sm-block">
+					<li><a href="../operation_guide/access_terms.html">이용약관</a></li>
+					<li><a href="../operation_guide/individual_information.html">개인정보처리방침</a></li>
+					<li><a href="../operation_guide/customer_charter.html">고객헌장</a></li>
+					<li><a href="http://as82.kr/smcb/" target="_blank">원격지원</a></li>
+				</ul>
+				<ul class="linkinfo mobile_linkinfo visible-xs-block">
+					<li><a href="../operation_guide/access_terms.html">이용약관</a></li>
+					<li><a href="../operation_guide/individual_information.html">개인정보처리방침</a></li>
+					<li><a href="">PC버전보기</a></li>
+					<li><a href="http://as82.kr/smcb/" target="_blank">원격지원</a></li>
+				</ul>
+				<div class="social visible-lg-block visible-md-block visible-sm-block">
+					<a href="https://www.facebook.com/smilemicrocreditbank" target="_blank"><img src="../../lib/images/f_icon.png" alt="서민금융진흥원 페이스북바로가기"></a>
+					<a href="http://blog.naver.com/misofinance" target="_blank"><img src="../../lib/images/b_icon.png" alt="서민금융진흥원 블로그바로가기"></a>
+				</div>
+			</div>
+	  	</div>
+	  	<div class="addres_Info">
+		  	<div class="container">
+			  	<img class="visible-lg-block visible-md-block visible-sm-block" src="../../lib/images/footer_logo.png" alt="서민금융진흥원">
+			  	<address>
+			  		<span class="sc">고객센터 &colon; 1600-3500</span> <span class="ad">&lpar;우&rpar;03157 서울시 종로구 종로5길 13, 삼공빌딩 7층</span> 
+			  		<span>Copyright Since 2008-2016 SMILE MICROCREDIT BANK.  All  Rights Reserved.</span>
+			  	</address>
+			  	<form class="footer_drop">
+				  	<fieldset>
+		                <select name="사이트맵" class="form-control dropdown visible-lg-block visible-md-block visible-sm-block">
+		                    <option value>홈페이지 바로가기</option>
+		                    <option value="http://www.fsc.go.kr" label="금융위원회">금융위원회</option>
+							<option value="http://www.fss.or.kr" label="금융감독원">금융감독원</option> 
+							<option value="http://www.ccrs.or.kr" label="신용회복위원회">신용회복위원회</option>  
+							<option value="http://www.kamco.or.kr" label="캠코">캠코</option>   
+							<option value="http://www.kfb.or.kr" label="전국은행연합회">전국은행연합회</option>   
+							<option value="http://www.klia.or.kr" label="생명보험협회">생명보험협회 </option>  
+							<option value="http://www.knia.or.kr" label="손해보험협회">손해보험협회 </option>   
+							<option value="http://www.minwon.go.kr" label="민원24">민원24 </option> 
+		                </select>
+		                <input name="이동" type="submit" value="이동" class="btn" />
+				  	</fieldset>
+            	</form>
+            	<div class="social visible-xs-block">
+					<a href="https://www.facebook.com/smilemicrocreditbank" target="_blank"><img src="../../lib/images/f_icon.png" alt="서민금융진흥원 페이스북바로가기"></a>
+					<a href="http://blog.naver.com/misofinance" target="_blank"><img src="../../lib/images/b_icon.png" alt="서민금융진흥원 블로그바로가기"></a>
+				</div>
+		  	</div>
+	  	</div>	  	
+  	</footer>
+  	<!--하단 영역 끝-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../../boot/dist/js/bootstrap.js"></script>
+    <script src="../../lib/js/common.js"></script>
+    <script src="../../lib/js/sub.js"></script>
+  </body>
+</html>
